@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{refs.bib} %Import the bibliography file
+
+\makeatletter
+\NewDocumentCommand{\mysubsection}{sm}{%
+  \par\addvspace{1ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsection}{#2}%
+  {\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{0.3\hintscolumnwidth}{0.95ex}}\quad}{\strut\subsectionstyle{#2}}%
+  \par\nobreak\addvspace{.5ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
+
+
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Cheng} % Your first name
+\familyname{Zhang} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Research Statement}
+%\address{W. Ethan Eagle}{}
+%\mobile{(302) 584 3464}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{czhang03@bu.edu}                               % optional, remove / comment the line if not wanted
+\homepage{cs-people.bu.edu/czhang03/}              % optional, remove / comment the line if not wanted
+\social[github]{czhang03}                              % optional, remove / comment the line if not wanted
+\extrainfo{\faFile{}~\href{https://cdn.jsdelivr.net/gh/czhang03/CV@master/CV.pdf}{Curriculum vitae}}
+
+%\homepage{https://czhang03.github.io/}{https://czhang03.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"Simplicity is a great virtue." - Edsger W. Dijkstra (1984)}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle % Print the CV title
+
+% set spacing
+\setlength\parskip{8px}
+
+Computer science as a field is facing many complex problems in today's ever-developing world. 
+Instead of directly attacking these convoluted questions, I believe in building a wealth of mathematical knowledge on simple foundational problems, and compose their solutions to conquer real-world challenges in a clean and efficient manner. 
+
+Guided by these goals, my PhD study focuses on three foundational problems: Kleene algebra, coalgebra, and automaton theory. 
+I was fascinated not only by their elegant mathematical structures and simple formulations, but also by their vast applications across seemingly unrelated domains. 
+Hence, I made sure that theory and practice always go hand-in-hand in my past projects: whenever we discover an application, we seek to perfect its theory; and similarly, when a new theory is developed, we will thoroughly explore its use cases in the real-world.
+
+\section{TopKAT: A Unified View Of Program Logic}
+
+Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential in bug detection across various types of programs~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
+
+Our work~\cite{zhang_IncorrectnessLogicKleene_2022} aims to use Kleene algebra with tests (KAT) to provide a simple and abstract semantical foundations for incorrectness logic, in order to soundly extend it to different domains. 
+However, we quickly found out it was impossible: we have proved that the theory of KAT was not able to encode incorrectness logic, mainly because the lack of relational domain operation.
+We were then able to device a simple extension of KAT, named TopKAT, to soundly encode all the propositional proof rules of Hoare and incorrectness logic. 
+TopKAT is obtained by simply adding a largest element to the theory of KAT, and it preserves the complexity class of KAT.
+
+However, when we dive into the theory of TopKAT, we noticed a curious weakness of TopKAT. Despite its power to encode both Hoare and incorrectness logic, the algebra is incomplete with its relational model. Our next work~\cite{zhang_DomainReasoningTopKAT_2024} resolves this weakness by only looking at the inequalities used to encode incorrectness and Hoare logic, which we named ``domain-comparison inequalities''. 
+In this work, we used techniques in universal algebra to redefine the concepts of reduction~\cite{pous_ToolsCompletenessKleene_2021,kozen_KleeneAlgebraTests_1997c}, enabling us to greatly simplify previous completeness proofs, and also allowing us to prove the completeness with regard domain-comparison inequalities. 
+This result has not only demonstrated the effectiveness of reasoning about incorrectness and Hoare logics using TopKAT, but also other logics like reachability logic~\cite{naus_ReachabilityLogicLowLevel_2022a} as well.
+
+In the future, we are planning to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
+
+\newpage
+\section{Kleene Algebra With Commutativity Hypothesis}
+
+Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has established that commutativity hypothesis is crucial for relational verification as well. 
+Unlike its applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
+
+Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
+This result showed a large class of equational theory are all undecidable with commutativity hypothesis, generalizing the result of Kuznetsov.
+
+This work settles a long-standing open problem in Kleene algebra, and also has shown the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision there might be a decidable, however less robust extension of Kleene Algebra to reason about alignment properties.
+
+\section{Ongoing Works}
+
+\mysubsection{CF-GKAT, control flow verification in nearly linear time}
+
+One of the hardship to fully verify current and legacy software is to build trust-worthy compilers and decompilers. 
+While numerous ad-hoc techniques are added into (de)compilers, the verification of these techniques are only viable by those who are experts in proof assistants.
+Our tools, instead of being a fully verified compiler~\cite{leroy_FormalVerificationRealistic_2009} or decompiler~\cite{verbeek_FormallyVerifiedLifting_2022}, is specifically designed to verify control-flow restructuring. 
+
+Because our tool is fast and fully-automatic, developers of (de)compilers can hook our tool directly into their implementations, and verify the correctness of control-flow restructuring for each run of their program. 
+This allows developers to produce more trust-worthy compilers and decompilers without familiarity with a proof assistant. 
+Besides on-the-fly verifications, our theory can also serve as a framework to fully verify control-flow restructuring algorithms in proof assistants.
+
+We choose GKAT as a foundation for our tool for its efficiency~\cite{smolka_GuardedKleeneAlgebra_2020}. Indeed, we were able to verify decompilations of programs with millions of commands in mere seconds, on a laptop. Furthermore, our tools supports various control structures, including break, return, goto, and indicator variables. This flexibility allows us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}, and we have shown that our framework is sound and complete with respect to trace equivalences.
+
+\mysubsection{Theory and practice of symbolic GKAT}
+
+Although GKAT is extremely efficient, it is not as efficient under some specific circumstances. 
+For example, when there is a large amount of primitive test (primitive conditional statements used in if-statement and while-loops), the memory usage and runtime of the original algorithm~\cite{smolka_GuardedKleeneAlgebra_2020} will blowup exponentially. 
+The large memory usage is typically resolved using derivatives to produce the automaton on-the-fly~\cite{brzozowski_DerivativesRegularExpressions_1964, schmid_GuardedKleeneAlgebra_2021}, whereas the large time complexity can be resolved using symbolic automaton~\cite{pous_SymbolicAlgorithmsLanguage_2015}. 
+
+Our latest work marries these two ideas, and built a theory of symbolic guarded Kleene coalgebra with tests (sGKCT), where we streamlined some languages used in symbolic automaton using category theory, and designed an efficient derivative-based symbolic decision procedure for GKAT. 
+Unlike previous works~\cite{pous_SymbolicAlgorithmsLanguage_2015}, the structure of GKAT enables us to export the complex boolean logic into a fast solver like z3; further improving the efficiency of our implementation.
+
+This work also characterized the exact complexity of GKAT.
+
+
+
+
+
+
+\printbibliography %Prints bibliography
+
+
+\end{document}
