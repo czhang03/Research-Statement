@@ -79,56 +79,55 @@
 Computer science as a field is facing many complex problems in today's ever-developing world. 
 Instead of directly attacking these convoluted questions, I believe in building a wealth of mathematical knowledge on simple foundational problems, and compose their solutions to conquer real-world challenges in a clean and efficient manner. 
 
-Guided by these goals, my PhD study focuses on three foundational theories in computer science: Kleene algebra, coalgebra, and automata theory. 
+Guided by these goals, my PhD study focuses on three fundamental theories in computer science: Kleene algebra, coalgebra, and automata theory. 
 I was fascinated not only by their elegant mathematical structures and simple formulations, but also by their vast applications across seemingly unrelated domains. 
-Hence, I made sure that theory and practice always go hand-in-hand in my past projects: whenever we discover an application, we seek to perfect its theory; and similarly, when a new theory is developed, we will thoroughly explore its use cases in the real-world.
+Hence, theory and practice always go hand-in-hand in my research: whenever we discover an application, we seek to perfect its theory; and similarly, when a new theory is developed, we will thoroughly explore its use cases in the real-world.
 
 \section{TopKAT: A Unified View Of Program Logic}
 
-Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential in bug detection across various semantical domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
+Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantical domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
 
-Our work~\cite{zhang_IncorrectnessLogicKleene_2022} aims to use Kleene algebra with tests (KAT) to provide a simple and abstract semantical foundations for incorrectness logic, unifying its theory across different domains. 
-However, we quickly found out it was impossible: we have proved that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operator.
-We were then able to device a simple extension of KAT, named TopKAT, to soundly encode all the propositional proof rules of Hoare and incorrectness logic. 
-TopKAT is obtained by adding a largest element to the theory of KAT; and unlike KA with domains~\cite{sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT.
+Our work~\cite{zhang_IncorrectnessLogicKleene_2022} aims to use Kleene algebra with tests (KAT) to provide a simple and abstract semantical foundations for incorrectness logic, unifying its theory in different domains. 
+This task was proven to be impossible: we showed that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operator.
+Thus, we devised a simple extension of KAT, named TopKAT, to soundly encode all the propositional proof rules of Hoare and incorrectness logic. 
+TopKAT contains only one more axiom than KAT: there exists a largest element; and unlike KA with domain~\cite{sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT~\cite{zhang_IncorrectnessLogicKleene_2022}.
 
-However, when we dived into the theory of TopKAT, we noticed a curious weakness of TopKAT. Despite its power to encode both Hoare and incorrectness logic, the algebra is incomplete with respect to its relational model. 
-Our next work~\cite{zhang_DomainReasoningTopKAT_2024} resolves this weakness by only looking at the inequalities used to encode incorrectness and Hoare logic, which we named ``domain-comparison inequalities''. 
-In this work, we used techniques in universal algebra to redefine the concepts of reduction~\cite{pous_ToolsCompletenessKleene_2021,kozen_KleeneAlgebraTests_1997c}, enabling us to greatly simplify previous completeness proofs, and also allowing us to prove the relational completeness with regard domain-comparison inequalities. 
+However, when we dived into the theory of TopKAT, we discovered an unexpected limitation of TopKAT. Despite its power to subsume both propositional Hoare and incorrectness logic, the algebra is incomplete with respect to its relational model. 
+Our followup work~\cite{zhang_DomainReasoningTopKAT_2024} resolves this weakness by only looking at the inequalities used to encode incorrectness and Hoare logic, which we named ``domain-comparison inequalities''. 
+In this work, we used techniques in universal algebra to streamline the definition of reduction~\cite{pous_ToolsCompletenessKleene_2021,kozen_KleeneAlgebraTests_1997c}, enabling us to greatly simplify previous completeness proofs, and also allowing us to prove the relational completeness with regard domain-comparison inequalities. 
 This result has not only demonstrated the effectiveness of reasoning about incorrectness and Hoare logics using TopKAT, but also other logics like reachability logic~\cite{naus_ReachabilityLogicLowLevel_2022a} as well.
 
-In the future, we are planning to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
+In the future, we plan to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
 
 \newpage
 \section{Kleene Algebra With Commutativity Hypothesis}
 
-Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established that its vital role in relational verification. 
+Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
 Contrary to its broad applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
 
 Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
 Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypothesis, generalizing the result of Kuznetsov.
 
-This work settles a long-standing open problem in Kleene algebra, and also has shown the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision there might be a decidable, however less robust, extension of Kleene Algebra to reason about alignment problems.
+This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision a decidable, yet less robust, extension of Kleene Algebra useful for reasoning about alignment problems in relational verifications.
 
 \section{Ongoing Works}
 
 \mysubsection{CF-GKAT, control flow verification in nearly linear time}
 
 One of the hardship to fully verify current and legacy software is to build trust-worthy compilers and decompilers. 
-While ad-hoc techniques are making their way into (de)compilers, the verification of these techniques are only viable by experts in proof assistants.
-Our tools, instead of aiming to be a fully verified compiler~\cite{leroy_FormalVerificationRealistic_2009} or decompiler~\cite{verbeek_FormallyVerifiedLifting_2022}, is specifically designed to verify control-flow restructuring. 
+While numerous ad-hoc techniques made their way into (de)compilers, the verification of these techniques are only viable by experts using proof assistants. 
+Our framework, on the other hand, can not only serve as a theory for formal verification of control-flow manipulation algorithms, but also can be invoked within (de)compilers to verify the correctness of control-flow restructuring process on-the-fly.
 
-Because our tool is fast and fully-automatic, developers of (de)compilers can hook it directly into their implementations, and verify the correctness of control-flow restructuring for each run of their program. 
-This allows developers to produce more trust-worthy compilers and decompilers without familiarity with any proof assistant. 
-Besides on-the-fly verifications, our theory can also serve as a framework to fully verify control-flow manipulation algorithms in proof assistants.
-
-We choose GKAT as the foundation of our tool because of its efficiency~\cite{smolka_GuardedKleeneAlgebra_2020}. Indeed, we were able to verify decompilations of programs with millions of commands in mere seconds, on a laptop. Furthermore, our framework supports various control structures, including break, return, goto, and indicator variables. This flexibility allows us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}, and we have shown that our framework is sound and complete with respect to trace equivalences.
+These use cases are enabled by guraded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020}, the theoretical foundation of our work.
+We extended GKAT with common control structures, including break, return, goto, and indicator variables, while preserving its efficiency, soundness, and completeness.
+These extensions enable us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}, and its efficiency allows on-the-fly verifications without consuming excessive time or system resources on users' computers.
+Indeed, we were able to verify decompilations of programs with millions of commands in mere seconds, on a laptop. 
 
 \mysubsection{Theory and practice of symbolic GKAT}
 
 Although GKAT is extremely efficient in some use cases, its efficiency can be improved in many other scenarios. 
 For example, when there is a large amount of primitive test (primitive conditional statements used in if-statement and while-loops), the memory usage and runtime of the original algorithm~\cite{smolka_GuardedKleeneAlgebra_2020} will blowup exponentially. 
-The large memory usage is typically resolved using derivatives to produce the automaton on-the-fly~\cite{brzozowski_DerivativesRegularExpressions_1964, schmid_GuardedKleeneAlgebra_2021}, whereas the large time complexity can be resolved using symbolic automaton~\cite{pous_SymbolicAlgorithmsLanguage_2015}. 
+The large memory usage is typically resolved using derivatives to produce the automaton on-the-fly~\cite{brzozowski_DerivativesRegularExpressions_1964, schmid_GuardedKleeneAlgebra_2021}, whereas the long runtime can be optimized using symbolic automaton~\cite{pous_SymbolicAlgorithmsLanguage_2015}. 
 
 Our latest work marries these two ideas, and built a theory of symbolic guarded Kleene coalgebra with tests (sGKCT), where we use category theory to streamline some languages in previous works of symbolic automata, and designed an efficient derivative-based symbolic decision procedure for GKAT. 
 Unlike similar works on KAT~\cite{pous_SymbolicAlgorithmsLanguage_2015}, the structure of GKAT enables us to export the complex boolean logic into a fast and reliable solvers like z3; further improving the efficiency of our implementation.
@@ -139,7 +138,7 @@ This work also characterized the exact complexity of GKAT.
 
 
 
-
+\newpage
 \printbibliography %Prints bibliography
 
 
