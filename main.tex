@@ -79,22 +79,22 @@
 Computer science as a field is facing many complex problems in today's ever-developing world. 
 Instead of directly attacking these convoluted questions, I believe in building a wealth of mathematical knowledge on simple foundational problems, and compose their solutions to conquer real-world challenges in a clean and efficient manner. 
 
-Guided by these goals, my PhD study focuses on three fundamental theories in computer science: Kleene algebra, coalgebra, and automata theory. 
+Guided by these goals, my PhD study focuses on three fundamental theories in computer science: Kleene algebra (KA), coalgebra, and automata theory. 
 I was fascinated not only by their elegant mathematical structures and simple formulations, but also by their vast applications across seemingly unrelated domains. 
 Hence, theory and practice always go hand-in-hand in my research: whenever we discover an application, we seek to perfect its theory; and similarly, when a new theory is developed, we will thoroughly explore its use cases in the real-world.
 
 \section{TopKAT: A Unified View Of Program Logic}
 
 Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantical domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
+To unify the theory of incorrectness logic in these semantical domains, we tried to use Kleene algebra with tests (KAT) as a simple and abstract semantical foundations. 
+This task was soon proven to be impossible~\cite{zhang_IncorrectnessLogicKleene_2022}: we showed that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operation.
+Surprisingly, instead of adding a fully-fledged domain operator, we only need to add a top element.
+We named our framework Kleen algebra with top and tests (TopKAT), and unlike KAT extensions with domain operators~\cite{desharnais_KleeneAlgebraDomain_2006,sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT~\cite{zhang_IncorrectnessLogicKleene_2022}.
 
-Our work~\cite{zhang_IncorrectnessLogicKleene_2022} aims to use Kleene algebra with tests (KAT) to provide a simple and abstract semantical foundations for incorrectness logic, unifying its theory in different domains. 
-This task was proven to be impossible: we showed that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operator.
-Thus, we devised a simple extension of KAT, named TopKAT, to soundly encode all the propositional proof rules of Hoare and incorrectness logic. 
-TopKAT contains only one more axiom than KAT: there exists a largest element; and unlike KA with domain~\cite{sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT~\cite{zhang_IncorrectnessLogicKleene_2022}.
-
-However, when we dived into the theory of TopKAT, we discovered an unexpected limitation of TopKAT. Despite its power to subsume both propositional Hoare and incorrectness logic, the algebra is incomplete with respect to its relational model. 
-Our followup work~\cite{zhang_DomainReasoningTopKAT_2024} resolves this weakness by only looking at the inequalities used to encode incorrectness and Hoare logic, which we named ``domain-comparison inequalities''. 
-In this work, we used techniques in universal algebra to streamline the definition of reduction~\cite{pous_ToolsCompletenessKleene_2021,kozen_KleeneAlgebraTests_1997c}, enabling us to greatly simplify previous completeness proofs, and also allowing us to prove the relational completeness with regard domain-comparison inequalities. 
+However, upon diving into the theory of TopKAT, we discovered its unexpected limitation: despite its power to subsume both propositional Hoare and incorrectness logic, TopKAT is incomplete with respect to its relational model. 
+Our followup work~\cite{zhang_DomainReasoningTopKAT_2024} resolves this weakness by focusing on the inequalities used to encode incorrectness and Hoare logic, which we named ``domain-comparison inequalities''. 
+In this work, we used techniques in universal algebra to streamline the definition of reduction~\cite{pous_ToolsCompletenessKleene_2021,kozen_KleeneAlgebraTests_1997c}.
+This new perspective greatly simplified previous completeness proofs, and also allowed us to prove the relational completeness with regard domain-comparison inequalities. 
 This result has not only demonstrated the effectiveness of reasoning about incorrectness and Hoare logics using TopKAT, but also other logics like reachability logic~\cite{naus_ReachabilityLogicLowLevel_2022a} as well.
 
 In the future, we plan to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
