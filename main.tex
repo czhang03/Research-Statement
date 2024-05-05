@@ -114,14 +114,13 @@ This work settles a long-standing open problem in Kleene algebra, and also demon
 
 \mysubsection{CF-GKAT, control flow verification in nearly linear time}
 
-One of the hardship to fully verify current and legacy software is to build trust-worthy compilers and decompilers. 
-While numerous ad-hoc techniques made their way into (de)compilers, the verification of these techniques are only viable by experts using proof assistants. 
-Our framework, on the other hand, can not only serve as a theory for formal verification of control-flow manipulation algorithms, but also can be invoked within (de)compilers to verify the correctness of control-flow restructuring process on-the-fly.
+Control-flow manipulation is a prevalent task in software engineering, thus verifying its correctness is crucial to ensure software reliability.
+Our work, building upon foundational researches on guarded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020} and the theory of non-local control flow in Kleene algebra~\cite{kozen_NonlocalFlowControl_2008a}, greatly simplifies process of control-flow verification.
 
-These use cases are enabled by guraded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020}, the theoretical foundation of our work.
-We extended GKAT with common control structures, including break, return, goto, and indicator variables, while preserving its efficiency, soundness, and completeness.
-These extensions enable us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}, and its efficiency allows on-the-fly verifications without consuming excessive time or system resources on users' computers.
-Indeed, we were able to verify decompilations of programs with millions of commands in mere seconds, on a laptop. 
+Specifically, We extended GKAT with common control structures, including break, return, goto, and indicator variables; while preserving its efficiency, soundness, and completeness.
+These extensions enable us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}.
+And its efficiency, soundness, and completeness allow our works to be invoked automatically on-the-fly, or be used as a framework in a proof assistant.
+
 
 \mysubsection{Theory and practice of symbolic GKAT}
 
