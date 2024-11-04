@@ -66,7 +66,12 @@
 %\homepage{https://czhang03.github.io/}{https://czhang03.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"Simplicity is a great virtue." - Edsger W. Dijkstra (1984)}
+
+\let\originalrecomputecvlengths\recomputecvlengths
+\renewcommand*{\recomputecvlengths}{%
+\originalrecomputecvlengths%
+\setlength{\quotewidth}{0.85\textwidth}}
+\quote{``the possibility of making explicit, elegant computations has always come out [\dots] as a byproduct of a thorough conceptual understanding\dots'' -- Alexander Grothendieck}
 
 %----------------------------------------------------------------------------------------
 
@@ -76,12 +81,23 @@
 % set spacing
 \setlength\parskip{8px}
 
-Computer science as a field is facing many complex problems in today's ever-developing world. 
-Instead of directly attacking these convoluted questions, I believe in building a wealth of mathematical knowledge on simple foundational problems, and compose their solutions to conquer real-world challenges in a clean and efficient manner. 
+Many challenges in computer science can be framed as program equivalences. 
+For instance, the correctness of (de)compilers can be defined by the requirement that the input program behaves identically to the output program. 
+Similarly, The correctness of machine learning model compression can also be assessed through the equivalence of the model before and after compression.
+The integrity of privacy and security algorithms can be characterized by the indistinguishability between their implementations and ideal scenarios. 
+Furthermore, more complex issues, such as network reachability~\cite{anderson_NetKATSemanticFoundations_2014a}, traffic isolation~\cite{anderson_NetKATSemanticFoundations_2014a}, program logic~\cite{zhang_IncorrectnessLogicKleene_2022,moller_AlgebraProgramCorrectness_2021}, and computational effects~\cite{plotkin_HandlersAlgebraicEffects_2009,plotkin_AdequacyAlgebraicEffects_2001}, can also be characterized using equations.
 
-Guided by these goals, my PhD study focuses on three fundamental theories in computer science: Kleene algebra (KA), coalgebra, and automata theory. 
-I was fascinated not only by their elegant mathematical structures and simple formulations, but also by their vast applications across seemingly unrelated domains. 
-Hence, theory and practice always go hand-in-hand in my research: whenever we discover an application, we seek to perfect its theory; and similarly, when a new theory is developed, we will thoroughly explore its use cases in the real-world.
+While general program equivalences may be infeasible, there are two well-established approaches for verifying program equivalences in specific applications. 
+The first, commonly referred to as the "algebraic" or "denotational" approach, constructs an equational proof system based on program behavior. T
+his method enables the creation of manual equational proofs and produces abstract, reusable results. 
+The second approach, known as the "coalgebraic" or "operational" approach, involves comparing the automata representations of pairs of programs. 
+Although this method allows for fully automated equivalence checking in many practical scenarios, the results are typically not reusable and must be validated for each program pair. 
+Excitingly, these two approaches can be combined, facilitating collaboration between humans and computers to conquer challenging problems. 
+The potential of this hybrid method has inspired a wealth of foundational research~\cite{smolka_GuardedKleeneAlgebra_2020,schmid_GuardedKleeneAlgebra_2021,jacobs_BialgebraicReviewDeterministic_2006,anderson_NetKATSemanticFoundations_2014a,foster_CoalgebraicDecisionProcedure_2015,kozen_CoalgebraicTheoryKleene_2008,schmid_CoalgebraicCompletenessTheorems_2024,rozowski_ProbabilisticGuardedKAT_2023}.
+
+My research builds upon these foundational techniques, extending them into a wide array of domains to address practical problems while advancing theoretical boundaries. 
+I am passionate about collaborating with students and researchers from diverse backgrounds to tackle challenging issues in their fields, applying the (co)algebraic perspective to drive progress. 
+Ultimately, many of my projects yield not only rich theoretical frameworks but also efficient tools, while leaving behind promising open problems for future exploration.
 
 \section{TopKAT: A Unified View Of Program Logic}
 
@@ -99,7 +115,6 @@ This result has not only demonstrated the effectiveness of reasoning about incor
 
 In the future, we plan to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
 
-\newpage
 \section{Kleene Algebra With Commutativity Hypothesis}
 
 Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
@@ -110,9 +125,7 @@ Our result exhibits a large class of equational theories that are all undecidabl
 
 This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision a decidable, yet less robust, extension of Kleene Algebra useful for reasoning about alignment problems in relational verifications.
 
-\section{Ongoing Works}
-
-\mysubsection{CF-GKAT, control flow verification in nearly linear time}
+\section{CF-GKAT, control flow verification in nearly linear time}
 
 Control-flow manipulation is a prevalent task in software engineering, thus verifying its correctness is crucial to ensure software reliability.
 Our work, building upon foundational researches on guarded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020} and the theory of non-local control flow in Kleene algebra~\cite{kozen_NonlocalFlowControl_2008a}, greatly simplifies process of control-flow verification.
@@ -122,7 +135,7 @@ These extensions enable us to verify a large class of control-flow restructuring
 And its efficiency, soundness, and completeness allow our works to be invoked automatically on-the-fly, or be used as a framework in a proof assistant.
 
 
-\mysubsection{Theory and practice of symbolic GKAT}
+\section{Efficient Symbolic On-the-fly Algorithm for GKAT}
 
 Although GKAT is extremely efficient in some use cases, its efficiency can be improved in many other scenarios. 
 For example, when there is a large amount of primitive test (primitive conditional statements used in if-statement and while-loops), the memory usage and runtime of the original algorithm~\cite{smolka_GuardedKleeneAlgebra_2020} will blowup exponentially. 
