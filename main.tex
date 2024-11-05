@@ -145,14 +145,14 @@ However, applying the compositional reduction technique discussed earlier is cha
 
 \section{Efficient Symbolic On-the-fly Algorithm for GKAT}
 
-Although GKAT is extremely efficient in some use cases, its efficiency can be improved in many other scenarios. 
+In the process of implementing CF-GKAT, we have identified several ways to improve the efficiency of GKAT equivalences.
 For example, when there is a large amount of primitive test (primitive conditional statements used in if-statement and while-loops), the memory usage and runtime of the original algorithm~\cite{smolka_GuardedKleeneAlgebra_2020} will blowup exponentially. 
 The large memory usage is typically resolved using derivatives to produce the automaton on-the-fly~\cite{brzozowski_DerivativesRegularExpressions_1964, schmid_GuardedKleeneAlgebra_2021}, whereas the long runtime can be optimized using symbolic automaton~\cite{pous_SymbolicAlgorithmsLanguage_2015}. 
 
-Our latest work marries these two ideas, and built a theory of symbolic guarded Kleene coalgebra with tests (sGKCT), where we use category theory to streamline some languages in previous works of symbolic automata, and designed an efficient derivative-based symbolic decision procedure for GKAT. 
+Our latest work marries these two ideas, and built a theory of symbolic GKAT coalgebra, where we designed several efficient symbolic equivalence-checking algorithm for GKAT. 
 Unlike similar works on KAT~\cite{pous_SymbolicAlgorithmsLanguage_2015}, the structure of GKAT enables us to export the complex boolean logic into a fast and reliable solvers like z3; further improving the efficiency of our implementation.
-
-This work also characterized the exact complexity of GKAT.
+Our rust implementation can decide large equivalences (with more than 500 commands pre expression) in seconds with only couple megabytes of memory usage.
+This work also characterized the exact complexity of GKAT, which is co-NP-complete.
 
 
 \section{Kleene Algebra With Commutativity Hypothesis}
