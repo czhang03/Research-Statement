@@ -81,19 +81,19 @@
 % set spacing
 \setlength\parskip{8px}
 
-Many challenges in computer science can be framed as program equivalences. 
-For instance, the correctness of (de)compilers can be defined by the requirement that the input program behaves identically to the output program. 
+Many challenges in computer science can be formulated as program equivalences. 
+For instance, the correctness of (de)compilers can be defined by the input program behaving identically to the output program. 
 Similarly, The correctness of machine learning model compression can also be assessed through the equivalence of the model before and after compression.
 The integrity of privacy and security algorithms can be characterized by the indistinguishability between their implementations and ideal scenarios. 
-Furthermore, more complex issues, such as network reachability~\cite{anderson_NetKATSemanticFoundations_2014a}, traffic isolation~\cite{anderson_NetKATSemanticFoundations_2014a}, program logic~\cite{zhang_IncorrectnessLogicKleene_2022,moller_AlgebraProgramCorrectness_2021}, and computational effects~\cite{plotkin_HandlersAlgebraicEffects_2009,plotkin_AdequacyAlgebraicEffects_2001}, can also be characterized using equations.
+Even more complex problems, such as network reachability~\cite{anderson_NetKATSemanticFoundations_2014a}, traffic isolation~\cite{anderson_NetKATSemanticFoundations_2014a}, program logic~\cite{zhang_IncorrectnessLogicKleene_2022,moller_AlgebraProgramCorrectness_2021}, and computational effects~\cite{plotkin_HandlersAlgebraicEffects_2009,plotkin_AdequacyAlgebraicEffects_2001}, can also be characterized using equations.
 
 While general program equivalences may be infeasible, there are two well-established approaches for verifying program equivalences in specific applications. 
-The first, commonly referred to as the "algebraic" or "denotational" approach, constructs an equational proof system based on program behavior. T
-his method enables the creation of manual equational proofs and produces abstract, reusable results. 
-The second approach, known as the "coalgebraic" or "operational" approach, involves comparing the automata representations of pairs of programs. 
+The first, commonly referred to as the "algebraic" or "denotational" approach, constructs an equational proof system based on program behavior. 
+This method enables the manual equational proofs and produces abstract, reusable results. 
+The second approach, known as the "coalgebraic" or "operational" approach, involves comparing the automata representations of programs. 
 Although this method allows for fully automated equivalence checking in many practical scenarios, the results are typically not reusable and must be validated for each program pair. 
-Excitingly, these two approaches can be combined, facilitating collaboration between humans and computers to conquer challenging problems. 
-The potential of this hybrid method has inspired a wealth of foundational research~\cite{smolka_GuardedKleeneAlgebra_2020,schmid_GuardedKleeneAlgebra_2021,jacobs_BialgebraicReviewDeterministic_2006,anderson_NetKATSemanticFoundations_2014a,foster_CoalgebraicDecisionProcedure_2015,kozen_CoalgebraicTheoryKleene_2008,schmid_CoalgebraicCompletenessTheorems_2024,rozowski_ProbabilisticGuardedKAT_2023}.
+Surprisingly, these two approaches can be combined, facilitating collaboration between humans and computers to reach general and reusable solutions to complex problems. 
+The potential of this hybrid method, sometimes referred to as ``bialgebra'', has inspired a wealth of foundational research~\cite{smolka_GuardedKleeneAlgebra_2020,schmid_GuardedKleeneAlgebra_2021,jacobs_BialgebraicReviewDeterministic_2006,anderson_NetKATSemanticFoundations_2014a,foster_CoalgebraicDecisionProcedure_2015,kozen_CoalgebraicTheoryKleene_2008,schmid_CoalgebraicCompletenessTheorems_2024,rozowski_ProbabilisticGuardedKAT_2023}.
 
 My research builds upon these foundational techniques, extending them into a wide array of domains to address practical problems while advancing theoretical boundaries. 
 I am passionate about collaborating with students and researchers from diverse backgrounds to tackle challenging issues in their fields, applying the (co)algebraic perspective to drive progress. 
