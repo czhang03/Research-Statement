@@ -101,8 +101,8 @@ Ultimately, many of my projects yield not only rich theoretical frameworks but a
 
 \section{TopKAT: A Unified View Of Program Logic}
 
-Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantical domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
-To unify the theory of incorrectness logic in these semantical domains, we tried to use Kleene algebra with tests (KAT) as a simple and abstract semantical foundations. 
+Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantic domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
+To unify the theory of incorrectness logic in these semantic domains, we tried to use Kleene algebra with tests (KAT) as an algebraic semantic foundation. 
 This task was soon proven to be impossible~\cite{zhang_IncorrectnessLogicKleene_2022}: we showed that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operation.
 Surprisingly, instead of adding a fully-fledged domain operator, we only need to add a top element.
 We named our framework Kleen algebra with top and tests (TopKAT), and unlike KAT extensions with domain operators~\cite{desharnais_KleeneAlgebraDomain_2006,sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT~\cite{zhang_IncorrectnessLogicKleene_2022}.
@@ -113,17 +113,19 @@ In this work, we used techniques in universal algebra to streamline the definiti
 This new perspective greatly simplified previous completeness proofs, and also allowed us to prove the relational completeness with regard domain-comparison inequalities. 
 This result has not only demonstrated the effectiveness of reasoning about incorrectness and Hoare logics using TopKAT, but also other logics like reachability logic~\cite{naus_ReachabilityLogicLowLevel_2022a} as well.
 
-In the future, we plan to extend the universal algebra techniques in this work to prove more complicated completeness results. We hope this will yield another compositional framework for completeness proof in Kleene Algebra.
+\textbf{Future Work:}
+There are two interesting future directions of this work:
+\begin{itemize}
+  \item 
+  Many features of program logic can be combined to improve the theory, such as separation and relational reasoning. 
+  Separation will enable modular reasoning, which could speed up automation. 
+  Relational reasoning, especially alignment, is a difficult problem~\cite{antonopoulos_AlgebraAlignmentRelational_2023, azevedodeamorim_KleeneAlgebraCommutativity_2024, kuznetsov_ComplexityReasoningKleene_2023}. 
+  Addressing this challenge could advance the theory of both algebraic reasoning and program logic, as well as develop efficient tools that enhance the scalability of program reasoning.
+  \item 
+  We can even develop a general and compositional theory of reduction, which will greatly simplify completeness and decidablility proofs.
+  Instead of unstructured term rewriting, Our reduction is defined via well-understood algebraic concepts, which likely makes them easy to reuse, manipulate and compose.
+\end{itemize}
 
-\section{Kleene Algebra With Commutativity Hypothesis}
-
-Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
-Contrary to its broad applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
-
-Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
-Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypothesis, generalizing the result of Kuznetsov.
-
-This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision a decidable, yet less robust, extension of Kleene Algebra useful for reasoning about alignment problems in relational verifications.
 
 \section{CF-GKAT, control flow verification in nearly linear time}
 
@@ -134,6 +136,12 @@ Specifically, We extended GKAT with common control structures, including break, 
 These extensions enable us to verify a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000a}.
 And its efficiency, soundness, and completeness allow our works to be invoked automatically on-the-fly, or be used as a framework in a proof assistant.
 
+\textbf{Future problems:}
+This project can evolve in several ways. 
+Practically, we can enhance our implementation with symbolic techniques, develop an axiomatic proof system for simpler correctness proofs of our (de)compilation algorithms, or introduce more control-flow structures to improve the language's expressiveness.
+Theoretically, we can simplify our proofs by framing our system as a coalgebraic theory or by adopting a modular approach to control-flow features. 
+By building the system one feature at a time, we can facilitate future extensions and ensure that theoretical properties hold for each subsystem. 
+However, applying the compositional reduction technique discussed earlier is challenging due to the limitations of GKAT.
 
 \section{Efficient Symbolic On-the-fly Algorithm for GKAT}
 
@@ -146,6 +154,16 @@ Unlike similar works on KAT~\cite{pous_SymbolicAlgorithmsLanguage_2015}, the str
 
 This work also characterized the exact complexity of GKAT.
 
+
+\section{Kleene Algebra With Commutativity Hypothesis}
+
+Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
+Contrary to its broad applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
+
+Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
+Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypothesis, generalizing the result of Kuznetsov.
+
+This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision a decidable, yet less robust, extension of Kleene Algebra useful for reasoning about alignment problems in relational verifications.
 
 
 
