@@ -165,7 +165,22 @@ Our result exhibits a large class of equational theories that are all undecidabl
 
 This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. In fact, we envision a decidable, yet less robust, extension of Kleene Algebra useful for reasoning about alignment problems in relational verifications.
 
+\section{Other Directions}
 
+\mysubsection{Session Type With Dynamic Information}
+Session type systems provide a formal framework for specifying and verifying communication protocols between two parties, ensuring security properties such as deadlock freedom.
+However, their expressiveness is limited when it comes to protocols that rely on dynamic information, such as leader election, resource allocation, and load balancing, where the subsequent actions depend on factors that are determined at runtime, like available system resources.
+To address this limitation, I plan to extend session type systems with dynamic decision-making capabilities and leverage the efficient decision procedure of guarded Kleene algebra with tests (GKAT) to design type-checking algorithms for this new framework.
+By combining the strengths of session types and GKAT, I believe we can develop a robust, expressive, and efficient type system that can verify complex communication protocols in a timely manner.
+
+\mysubsection{Future, Deadlock, and Data Races}
+
+In addition to type-based approaches to eliminate deadlock, I am also interested in detecting deadlock and data races in existing code bases without manual type annotations, particularly in systems with threads accessing a shared memory.
+Traditional detection tools are often language-specific~\cite{williams_StaticDeadlockDetection_2005,masticola_StaticDetectionDeadlocks_1993,engler_RacerXEffectiveStatic_2003,naik_EffectiveStaticDeadlock_2009}, but recent graph-based techniques offer a robust alternative. 
+This approach encodes a program's execution in a graph and performs deadlock and data race detection on it~\cite{muller_StaticPredictionParallel_2022,muller_ResponsiveParallelismFutures_2020,rinaldi_PipelinesGraphTypes_2024,muller_LanguageAgnosticStaticDeadlock_2024a}.
+I seek to bring the (co)algebraic perspective to this line of research, leveraging Kleene Algebra to establish connections between graphs and semantics. 
+This will deepen our understanding of the graph-based techniques, potentially leading to more efficient deadlock and data-race detection, as well as a formal proof system to ensure deadlock and data-race freedom.
+This endeavor also requires exciting extensions to concurrent Kleene Algebra~\cite{hoare_ConcurrentKleeneAlgebra_2011,kappe_ConcurrentKleeneAlgebra_2020,kappe_ConcurrentKleeneAlgebra_2018,wagemaker_PartiallyObservableConcurrent_2020,mciver_ProbabilisticConcurrentKleene_2013}, including support for \verb|future|, a common way to construct concurrent computations in modern programming languages; and a framework for analyzing data dependencies, a key cause of deadlocks and data-races.
 
 
 \newpage
