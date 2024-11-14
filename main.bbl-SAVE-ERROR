@@ -1,0 +1,2797 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{anderson_NetKATSemanticFoundations_2014a}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=98ea04c72bb910cfe1f47ebb9fe28a0d}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Carolyn\bibnamedelima Jane},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a800c0ee239434b46b7b5c8321cdf562}{%
+           family={Guha},
+           familyi={G\bibinitperiod},
+           given={Arjun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=edce943ecfb2c0566f5dc29bcf11d2cc}{%
+           family={Jeannin},
+           familyi={J\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=825b6f69f81572d6393ae7ba1ec812ac}{%
+           family={Schlesinger},
+           familyi={S\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f6ebee077ea6f2c8f67f01d541cad379}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego California USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{bf8102efc3a5623a91849ff3023ff5f7}
+      \strng{fullhash}{e51b0b4eeba4be0b30653ca04fb0f70d}
+      \strng{bibnamehash}{bf8102efc3a5623a91849ff3023ff5f7}
+      \strng{authorbibnamehash}{bf8102efc3a5623a91849ff3023ff5f7}
+      \strng{authornamehash}{bf8102efc3a5623a91849ff3023ff5f7}
+      \strng{authorfullhash}{e51b0b4eeba4be0b30653ca04fb0f70d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the 41st {{ACM SIGPLAN-SIGACT Symposium}} on {{Principles}} of {{Programming Languages}}}
+      \field{isbn}{978-1-4503-2544-8}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{{NetKAT}}}
+      \field{title}{{{NetKAT}}: Semantic Foundations for Networks}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 126}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/2535838.2535862
+      \endverb
+    \endentry
+    \entry{antonopoulos_AlgebraAlignmentRelational_2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=eee9133a3af1d3a43e60a49c5b1e9aa8}{%
+           family={Antonopoulos},
+           familyi={A\bibinitperiod},
+           given={Timos},
+           giveni={T\bibinitperiod}}}%
+        {{hash=15f8eae4b96ec184be29abb2c1117153}{%
+           family={Koskinen},
+           familyi={K\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e895f77e6c2e470194b566705faa508c}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Ton\bibnamedelima Chanh},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=608c53509f407d762efaa5bae5dc7817}{%
+           family={Nagasamudram},
+           familyi={N\bibinitperiod},
+           given={Ramana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=109b27babf9c7244cdfca14b37f90575}{%
+           family={Naumann},
+           familyi={N\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e71b7912d3d03bd3a8ca4a9a2761935d}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce87d597821db9b76d748cfda947fadb}
+      \strng{fullhash}{44c0429342bbd9ab726660d1c8862933}
+      \strng{bibnamehash}{ce87d597821db9b76d748cfda947fadb}
+      \strng{authorbibnamehash}{ce87d597821db9b76d748cfda947fadb}
+      \strng{authornamehash}{ce87d597821db9b76d748cfda947fadb}
+      \strng{authorfullhash}{44c0429342bbd9ab726660d1c8862933}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{title}{An {{Algebra}} of {{Alignment}} for {{Relational Verification}}}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{pages}{20:573\bibrangedash 20:603}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3571213
+      \endverb
+      \keyw{hyperproperties,Kleene algebra with tests,program algebra,relational verification}
+    \endentry
+    \entry{azevedodeamorim_KleeneAlgebraCommutativity_2024a}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=02d2f673e53e4363192e7e77ecbe8fb4}{%
+           family={{Azevedo de Amorim}},
+           familyi={A\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2236e238d6bdc3c54b604fb209e4f6d2}{%
+           family={Gaboardi},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{fullhash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{bibnamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authorbibnamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authornamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authorfullhash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Kleene Algebra with Commutativity Conditions Is Undecidable}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{azevedodeamorim_KleeneAlgebraCommutativity_2024}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=02d2f673e53e4363192e7e77ecbe8fb4}{%
+           family={{Azevedo de Amorim}},
+           familyi={A\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2236e238d6bdc3c54b604fb209e4f6d2}{%
+           family={Gaboardi},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{fullhash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{bibnamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authorbibnamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authornamehash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \strng{authorfullhash}{f824a6cbecda3ab1ce7ef2f6cc8c09d0}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Kleene Algebra with Commutativity Conditions Is Undecidable}
+      \field{year}{2024}
+      \keyw{Automaton,Commutativity,Complexity,Kleene algebra}
+    \endentry
+    \entry{basque_AhoySAILRThere_}{article}{}
+      \name{author}{8}{}{%
+        {{hash=055c135f746bfb2672c7b2365cbaaa64}{%
+           family={Basque},
+           familyi={B\bibinitperiod},
+           given={Zion\bibnamedelima Leonahenahe},
+           giveni={Z\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6e31f70d20fa6e1504620de122a1947d}{%
+           family={Bajaj},
+           familyi={B\bibinitperiod},
+           given={Ati\bibnamedelima Priya},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1dfd6adf865edadee334b4968dd5b78e}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8909535e8ff9d4de681cd4f051d7c0e5}{%
+           family={O'Kain},
+           familyi={O\bibinitperiod},
+           given={Jude},
+           giveni={J\bibinitperiod}}}%
+        {{hash=04f572f7a51dbad2e8dea647f164036b}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Derron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=27671a2c4532ebe6ef7eda668ee69bf7}{%
+           family={Doupé},
+           familyi={D\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1c0d125a5b51f7c0735dae8d6cb85841}{%
+           family={Shoshitaishvili},
+           familyi={S\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fe111972d3b386883f2bf3e75f885dbe}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ruoyu},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{682a5112135061ce9c155c353b30638d}
+      \strng{fullhash}{34dba294750854123f28fccbe376d959}
+      \strng{bibnamehash}{682a5112135061ce9c155c353b30638d}
+      \strng{authorbibnamehash}{682a5112135061ce9c155c353b30638d}
+      \strng{authornamehash}{682a5112135061ce9c155c353b30638d}
+      \strng{authorfullhash}{34dba294750854123f28fccbe376d959}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Ahoy {{SAILR}}! {{There}} Is {{No Need}} to {{DREAM}} of {{C}}: {{A Compiler-Aware Structuring Algorithm}} for {{Binary Decompilation}}}
+    \endentry
+    \entry{brzozowski_DerivativesRegularExpressions_1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f96b365e70aead4762511a84e458de06}{%
+           family={Brzozowski},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f96b365e70aead4762511a84e458de06}
+      \strng{fullhash}{f96b365e70aead4762511a84e458de06}
+      \strng{bibnamehash}{f96b365e70aead4762511a84e458de06}
+      \strng{authorbibnamehash}{f96b365e70aead4762511a84e458de06}
+      \strng{authornamehash}{f96b365e70aead4762511a84e458de06}
+      \strng{authorfullhash}{f96b365e70aead4762511a84e458de06}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-5411}
+      \field{journaltitle}{Journal of the ACM}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Derivatives of {{Regular Expressions}}}
+      \field{volume}{11}
+      \field{year}{1964}
+      \field{pages}{481\bibrangedash 494}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/321239.321249
+      \endverb
+    \endentry
+    \entry{desharnais_KleeneAlgebraDomain_2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3fc7471a76c2b375cb2cfad53b28e99e}{%
+           family={Desharnais},
+           familyi={D\bibinitperiod},
+           given={Jules},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd90c158b0b2acd9bf6cdea9ca41d062}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5f2d02a6fd2afc2a5a86408b4d85b117}{%
+           family={Struth},
+           familyi={S\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \strng{fullhash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \strng{bibnamehash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \strng{authorbibnamehash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \strng{authornamehash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \strng{authorfullhash}{1a0ebb53117534d0dfccb9e3b32ed664}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1529-3785}
+      \field{journaltitle}{ACM Transactions on Computational Logic}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Kleene Algebra with Domain}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{798\bibrangedash 833}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1145/1183278.1183285
+      \endverb
+    \endentry
+    \entry{engler_RacerXEffectiveStatic_2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=481c9efce218239925870e8098897eff}{%
+           family={Engler},
+           familyi={E\bibinitperiod},
+           given={Dawson},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ea2c3624fca1bed4b3da1d21b283fcf7}{%
+           family={Ashcraft},
+           familyi={A\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a327348f1b47d5a2ab239c5e6602d558}
+      \strng{fullhash}{a327348f1b47d5a2ab239c5e6602d558}
+      \strng{bibnamehash}{a327348f1b47d5a2ab239c5e6602d558}
+      \strng{authorbibnamehash}{a327348f1b47d5a2ab239c5e6602d558}
+      \strng{authornamehash}{a327348f1b47d5a2ab239c5e6602d558}
+      \strng{authorfullhash}{a327348f1b47d5a2ab239c5e6602d558}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0163-5980}
+      \field{journaltitle}{SIGOPS Oper. Syst. Rev.}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{{{RacerX}}}
+      \field{title}{{{RacerX}}: Effective, Static Detection of Race Conditions and Deadlocks}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{37}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{237\bibrangedash 252}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/1165389.945468
+      \endverb
+    \endentry
+    \entry{erosa_TamingControlFlow_1994}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=338d5ec23bd40625f7914c1af2fabc97}{%
+           family={Erosa},
+           familyi={E\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6a7a3b884ecba339fa24aa60d7374941}{%
+           family={Hendren},
+           familyi={H\bibinitperiod},
+           given={L.J.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \strng{fullhash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \strng{bibnamehash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \strng{authorbibnamehash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \strng{authornamehash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \strng{authorfullhash}{3775d2ac88d86a4eb7c3614df26bce03}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of 1994 {{IEEE International Conference}} on {{Computer Languages}} ({{ICCL}}'94)}
+      \field{month}{5}
+      \field{shorttitle}{Taming Control Flow}
+      \field{title}{Taming Control Flow: A Structured Approach to Eliminating Goto Statements}
+      \field{year}{1994}
+      \field{pages}{229\bibrangedash 240}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICCL.1994.288377
+      \endverb
+      \keyw{Computer science,Design optimization,Flow graphs,Information analysis,Optimizing compilers,Program processors,Programming profession,Software engineering,Software testing,Switches}
+    \endentry
+    \entry{foster_CoalgebraicDecisionProcedure_2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=92eef5962a3deb054c8e848ac841085d}{%
+           family={Milano},
+           familyi={M\bibinitperiod},
+           given={Mae},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7e6663a7b8710892b45ba61898792ce9}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ff79f42ce9149d91df05b08982a33772}
+      \strng{fullhash}{ce4a52d2baa0d74ee41f742844291702}
+      \strng{bibnamehash}{ff79f42ce9149d91df05b08982a33772}
+      \strng{authorbibnamehash}{ff79f42ce9149d91df05b08982a33772}
+      \strng{authornamehash}{ff79f42ce9149d91df05b08982a33772}
+      \strng{authorfullhash}{ce4a52d2baa0d74ee41f742844291702}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 42nd {{Annual ACM SIGPLAN-SIGACT Symposium}} on {{Principles}} of {{Programming Languages}}}
+      \field{isbn}{978-1-4503-3300-9}
+      \field{month}{1}
+      \field{series}{{{POPL}} '15}
+      \field{title}{A {{Coalgebraic Decision Procedure}} for {{NetKAT}}}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{343\bibrangedash 355}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/2676726.2677011
+      \endverb
+    \endentry
+    \entry{hoare_ConcurrentKleeneAlgebra_2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6502538c51ce07aebd2d0baf74172968}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fd90c158b0b2acd9bf6cdea9ca41d062}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5f2d02a6fd2afc2a5a86408b4d85b117}{%
+           family={Struth},
+           familyi={S\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ff168f999c4b23330343255e0d36795f}{%
+           family={Wehrman},
+           familyi={W\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{34fdef91538fb5bfb8ac07c942dae754}
+      \strng{fullhash}{c4a71b6723e6b4462f4adb30ed8ab8ff}
+      \strng{bibnamehash}{34fdef91538fb5bfb8ac07c942dae754}
+      \strng{authorbibnamehash}{34fdef91538fb5bfb8ac07c942dae754}
+      \strng{authornamehash}{34fdef91538fb5bfb8ac07c942dae754}
+      \strng{authorfullhash}{c4a71b6723e6b4462f4adb30ed8ab8ff}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1567-8326}
+      \field{journaltitle}{The Journal of Logic and Algebraic Programming}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{6}
+      \field{series}{Relations and {{Kleene Algebras}} in {{Computer Science}}}
+      \field{title}{Concurrent {{Kleene Algebra}} and Its {{Foundations}}}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{volume}{80}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{266\bibrangedash 296}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1016/j.jlap.2011.04.005
+      \endverb
+    \endentry
+    \entry{jacobs_BialgebraicReviewDeterministic_2006}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bf424ec58729aa7d35e9d57ec1c7d40d}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{18}{}{%
+        {{hash=d003d9a994005f480f7fa06dde74326e}{%
+           family={Hutchison},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dd3a56c94774f5880ca7475fdc308ea}{%
+           family={Kittler},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb11814963625d418100ec9ca3710333}{%
+           family={Kleinberg},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e07c4272d13053fc36d770d4735f2c14}{%
+           family={Mattern},
+           familyi={M\bibinitperiod},
+           given={Friedemann},
+           giveni={F\bibinitperiod}}}%
+        {{hash=47dbc192a926109dd86ea18b25249a93}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c6af39e79e88306281e6e0b0ccea956c}{%
+           family={Naor},
+           familyi={N\bibinitperiod},
+           given={Moni},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d3ea70a5274b32c8a184dd4d844ee47}{%
+           family={Nierstrasz},
+           familyi={N\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcab2334dc65214139b0ad45fe8185e}{%
+           family={Pandu\bibnamedelima Rangan},
+           familyi={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=665b6687b4ed05721bf55d61032505ca}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8753fbfaaa4aa8a1195c657edc9daef4}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd9aa5de7673e375889cc32997ef97df}{%
+           family={Terzopoulos},
+           familyi={T\bibinitperiod},
+           given={Demetri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ddfb7c40f1ab7e805c025ac7ef922cc7}{%
+           family={Tygar},
+           familyi={T\bibinitperiod},
+           given={Dough},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a4cf237a06b02ad7e7601b14b4d005be}{%
+           family={Vardi},
+           familyi={V\bibinitperiod},
+           given={Moshe\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d4f56ffdcbe0ab67e70706f1560442ac}{%
+           family={Futatsugi},
+           familyi={F\bibinitperiod},
+           given={Kokichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6eeba4a38cd4dba9ec491e9d7e87b452}{%
+           family={Jouannaud},
+           familyi={J\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=3db091e4a8ac487951475a5465f6c566}{%
+           family={Meseguer},
+           familyi={M\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{fullhash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{bibnamehash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{authorbibnamehash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{authornamehash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{authorfullhash}{bf424ec58729aa7d35e9d57ec1c7d40d}
+      \strng{editorbibnamehash}{1878e5aaeb2ba2e2aaa5cb8a1a7cf207}
+      \strng{editornamehash}{1878e5aaeb2ba2e2aaa5cb8a1a7cf207}
+      \strng{editorfullhash}{7aa862e8601ebbc06e09aeae6e59bae5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Algebra, {{Meaning}}, and {{Computation}}}
+      \field{isbn}{978-3-540-35462-8 978-3-540-35464-2}
+      \field{langid}{english}
+      \field{title}{A {{Bialgebraic Review}} of {{Deterministic Automata}}, {{Regular Expressions}} and {{Languages}}}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{4060}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{375\bibrangedash 404}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/11780274_20
+      \endverb
+    \endentry
+    \entry{kappe_ConcurrentKleeneAlgebra_2020}{incollection}{}
+      \name{author}{5}{}{%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9b149e9607295bd7e8c6d08e98279ab8}{%
+           family={Brunet},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f65de02db0602b0c6f9927d61f2d7e0d}{%
+           family={Wagemaker},
+           familyi={W\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=89c6b224e96f4982a42da5fa8512050b}{%
+           family={Zanasi},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=80ae10896704521f62f88fbee1b2f3e4}{%
+           family={{Goubault-Larrecq}},
+           familyi={G\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3ce6a00ea0ef6f68e302c434a1ee1af8}{%
+           family={König},
+           familyi={K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{fullhash}{0de82f1d8e8e0ecae7173da991b33adf}
+      \strng{bibnamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authorbibnamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authornamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authorfullhash}{0de82f1d8e8e0ecae7173da991b33adf}
+      \strng{editorbibnamehash}{7bdb320a01c2fae54b707818824c9e16}
+      \strng{editornamehash}{7bdb320a01c2fae54b707818824c9e16}
+      \strng{editorfullhash}{7bdb320a01c2fae54b707818824c9e16}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Foundations of {{Software Science}} and {{Computation Structures}}}
+      \field{isbn}{978-3-030-45230-8 978-3-030-45231-5}
+      \field{langid}{english}
+      \field{shorttitle}{Concurrent {{Kleene Algebra}} with {{Observations}}}
+      \field{title}{Concurrent {{Kleene Algebra}} with {{Observations}}: {{From Hypotheses}} to {{Completeness}}}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{volume}{12077}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{381\bibrangedash 400}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/978-3-030-45231-5_20
+      \endverb
+    \endentry
+    \entry{kappe_ConcurrentKleeneAlgebra_2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9b149e9607295bd7e8c6d08e98279ab8}{%
+           family={Brunet},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89c6b224e96f4982a42da5fa8512050b}{%
+           family={Zanasi},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=94a245e2a7f48b654d74d292a96172d0}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Amal},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{fullhash}{527c5b274c62502fdd312f9b6790b1d7}
+      \strng{bibnamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authorbibnamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authornamehash}{44dcbc980e94ea2e36bc9e990c5cb9e4}
+      \strng{authorfullhash}{527c5b274c62502fdd312f9b6790b1d7}
+      \strng{editorbibnamehash}{94a245e2a7f48b654d74d292a96172d0}
+      \strng{editornamehash}{94a245e2a7f48b654d74d292a96172d0}
+      \strng{editorfullhash}{94a245e2a7f48b654d74d292a96172d0}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Programming {{Languages}} and {{Systems}}}
+      \field{isbn}{978-3-319-89884-1}
+      \field{langid}{english}
+      \field{series}{Lecture {{Notes}} in {{Computer Science}}}
+      \field{shorttitle}{Concurrent {{Kleene Algebra}}}
+      \field{title}{Concurrent {{Kleene Algebra}}: {{Free Model}} and {{Completeness}}}
+      \field{year}{2018}
+      \field{pages}{856\bibrangedash 882}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-3-319-89884-1_30
+      \endverb
+    \endentry
+    \entry{kozen_KleeneAlgebraTests_1996}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=97b8779c08da200ee2eb194bdc10ae4f}{%
+           family={Goos},
+           familyi={G\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=84d4ea2bd3ec736effccd97ee64d09ef}{%
+           family={Hartmanis},
+           familyi={H\bibinitperiod},
+           given={Juris},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3217b2ce3c094ac769c5e400b535bda1}{%
+           family={Leeuwen},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=580cd9f49733e0d6ba54ad9fe7c3ebed}{%
+           family={Margaria},
+           familyi={M\bibinitperiod},
+           given={Tiziana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=665b6687b4ed05721bf55d61032505ca}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{fullhash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{bibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorbibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authornamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorfullhash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{editorbibnamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editornamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editorfullhash}{cbcb046fa78ad0c5693dc356c3ee314e}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Tools and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}}}
+      \field{isbn}{978-3-540-61042-7 978-3-540-49874-2}
+      \field{langid}{english}
+      \field{title}{Kleene Algebra with Tests and Commutativity Conditions}
+      \field{volume}{1055}
+      \field{year}{1996}
+      \field{pages}{14\bibrangedash 33}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/3-540-61042-1_35
+      \endverb
+    \endentry
+    \entry{kozen_NonlocalFlowControl_2008a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh, PA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{fullhash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{bibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorbibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authornamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorfullhash}{d2074648976a36dff1e51ca8e744276b}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780769531830}
+      \field{issn}{1043-6871}
+      \field{journaltitle}{2008 23rd Annual IEEE Symposium on Logic in Computer Science}
+      \field{month}{6}
+      \field{title}{Nonlocal {{Flow}} of {{Control}} and {{Kleene Algebra}} with {{Tests}}}
+      \field{year}{2008}
+      \field{pages}{105\bibrangedash 117}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/LICS.2008.32
+      \endverb
+    \endentry
+    \entry{kozen_CoalgebraicTheoryKleene_2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{fullhash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{bibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorbibnamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authornamehash}{d2074648976a36dff1e51ca8e744276b}
+      \strng{authorfullhash}{d2074648976a36dff1e51ca8e744276b}
+      \field{extraname}{3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Accepted: 2008-03-14T18:49:38Z}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{On the {{Coalgebraic Theory}} of {{Kleene Algebra}} with {{Tests}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{kozen_CertificationCompilerOptimizations_2000d}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6a5458a58e161006e708a42115733c4c}{%
+           family={Patron},
+           familyi={P\bibinitperiod},
+           given={Maria-Christina},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \strng{fullhash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \strng{bibnamehash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \strng{authorbibnamehash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \strng{authornamehash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \strng{authorfullhash}{3c4e7ca77f4f5cc6ad71cb1b141e9248}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {{First International Conference}} on {{Computational Logic}}}
+      \field{isbn}{978-3-540-67797-0}
+      \field{month}{7}
+      \field{series}{{{CL}} '00}
+      \field{title}{Certification of {{Compiler Optimizations Using Kleene Algebra}} with {{Tests}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{568\bibrangedash 582}
+      \range{pages}{15}
+    \endentry
+    \entry{kozen_KleeneAlgebraTests_1997c}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=86a6cb4a2ce677424ef0a9e879f79fc3}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Frederick},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=97b8779c08da200ee2eb194bdc10ae4f}{%
+           family={Goos},
+           familyi={G\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=84d4ea2bd3ec736effccd97ee64d09ef}{%
+           family={Hartmanis},
+           familyi={H\bibinitperiod},
+           given={Juris},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3217b2ce3c094ac769c5e400b535bda1}{%
+           family={Leeuwen},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=be0b0fda2bffbb2904cba6d51fcbdd73}{%
+           family={Dalen},
+           familyi={D\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6d232f8f72448bcec4812b308c5674c0}{%
+           family={Bezem},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{fullhash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{bibnamehash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{authorbibnamehash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{authornamehash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{authorfullhash}{0b99fe5ccb23fc81dd7459c49af17f38}
+      \strng{editorbibnamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editornamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editorfullhash}{2364bb0284d164c8351f6c30f1a93889}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Computer {{Science Logic}}}
+      \field{isbn}{978-3-540-63172-9 978-3-540-69201-0}
+      \field{langid}{english}
+      \field{shorttitle}{Kleene Algebra with Tests}
+      \field{title}{Kleene Algebra with Tests: {{Completeness}} and Decidability}
+      \field{volume}{1258}
+      \field{year}{1997}
+      \field{pages}{244\bibrangedash 259}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/3-540-63172-0_43
+      \endverb
+    \endentry
+    \entry{kuznetsov_ComplexityReasoningKleene_2023}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=601d65bc6df4ef813d77afa83e3a7523}{%
+           family={Kuznetsov},
+           familyi={K\bibinitperiod},
+           given={Stepan\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=7fc119e72e6191c643f4e5da5c618c76}{%
+           family={Ábrahám},
+           familyi={Á\bibinitperiod},
+           given={Erika},
+           giveni={E\bibinitperiod}}}%
+        {{hash=78d7c733d43d8dc99341660554bfa213}{%
+           family={Dubslaff},
+           familyi={D\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=984280df9699d3bdda328c3a60a0c301}{%
+           family={Tarifa},
+           familyi={T\bibinitperiod},
+           given={Silvia\bibnamedelimb Lizeth\bibnamedelima Tapia},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{fullhash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{bibnamehash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{authorbibnamehash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{authornamehash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{authorfullhash}{601d65bc6df4ef813d77afa83e3a7523}
+      \strng{editorbibnamehash}{19cba522d752089c9bdd417e52ce230c}
+      \strng{editornamehash}{19cba522d752089c9bdd417e52ce230c}
+      \strng{editorfullhash}{19cba522d752089c9bdd417e52ce230c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theoretical {{Aspects}} of {{Computing}} -- {{ICTAC}} 2023}
+      \field{isbn}{978-3-031-47963-2}
+      \field{langid}{english}
+      \field{title}{On the~{{Complexity}} of~{{Reasoning}} in~{{Kleene Algebra}} with~{{Commutativity Conditions}}}
+      \field{year}{2023}
+      \field{pages}{83\bibrangedash 99}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-031-47963-2_7
+      \endverb
+      \keyw{algorithmic complexity,commutativity conditions,Kleene algebra}
+    \endentry
+    \entry{le_FindingRealBugs_2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=39ea5e39c672802ba937ee04fc41f41e}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Quang\bibnamedelima Loc},
+           giveni={Q\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cb9d146c4c3bcfc8788cc6934153c57d}{%
+           family={Raad},
+           familyi={R\bibinitperiod},
+           given={Azalea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=acb0a4f3d692d17ca8e27ff2d147114a}{%
+           family={Villard},
+           familyi={V\bibinitperiod},
+           given={Jules},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8be52df6c77716854b91eb1bab75ff9e}{%
+           family={Berdine},
+           familyi={B\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c61a075f82133ed00b1cf07a5b5c194}{%
+           family={Dreyer},
+           familyi={D\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a4d9d06f404fc6167367e00ca67ac625}{%
+           family={O'Hearn},
+           familyi={O\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b330c8c496b6d333f49198e37d6fab0d}
+      \strng{fullhash}{ae58aaa0e89ad7d3a8f40030e524ef40}
+      \strng{bibnamehash}{b330c8c496b6d333f49198e37d6fab0d}
+      \strng{authorbibnamehash}{b330c8c496b6d333f49198e37d6fab0d}
+      \strng{authornamehash}{b330c8c496b6d333f49198e37d6fab0d}
+      \strng{authorfullhash}{ae58aaa0e89ad7d3a8f40030e524ef40}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2475-1421}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{OOPSLA1}
+      \field{title}{Finding Real Bugs in Big Programs with Incorrectness Logic}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1145/3527325
+      \endverb
+    \endentry
+    \entry{masticola_StaticDetectionDeadlocks_1993}{article}{}
+      \name{author}{1}{}{%
+        {{hash=29e339cca9547268d55e16bc4873f309}{%
+           family={Masticola},
+           familyi={M\bibinitperiod},
+           given={Stephen\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rutgers University}%
+      }
+      \strng{namehash}{29e339cca9547268d55e16bc4873f309}
+      \strng{fullhash}{29e339cca9547268d55e16bc4873f309}
+      \strng{bibnamehash}{29e339cca9547268d55e16bc4873f309}
+      \strng{authorbibnamehash}{29e339cca9547268d55e16bc4873f309}
+      \strng{authornamehash}{29e339cca9547268d55e16bc4873f309}
+      \strng{authorfullhash}{29e339cca9547268d55e16bc4873f309}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Static Detection of Deadlocks in Polynomial Time}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.7282/T3-95QX-2391
+      \endverb
+    \endentry
+    \entry{mciver_UsingProbabilisticKleene_2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1c3c31f33c873ed770cca268aee9db8d}{%
+           family={McIver},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=13a0d9e6b435860c9df1ade66dd54038}{%
+           family={Gonzalia},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff0c2d91303beb109609d8aabab79717}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=35efbbe6583851546edc952882ad70bd}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae2984f4789315a23ab3672f96c72308}
+      \strng{fullhash}{5db2bedf423cc0b4ed785ac952198ed4}
+      \strng{bibnamehash}{ae2984f4789315a23ab3672f96c72308}
+      \strng{authorbibnamehash}{ae2984f4789315a23ab3672f96c72308}
+      \strng{authornamehash}{ae2984f4789315a23ab3672f96c72308}
+      \strng{authorfullhash}{5db2bedf423cc0b4ed785ac952198ed4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1567-8326}
+      \field{journaltitle}{The Journal of Logic and Algebraic Programming}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{series}{Relations and {{Kleene Algebras}} in {{Computer Science}}}
+      \field{title}{Using Probabilistic {{Kleene}} Algebra {{pKA}} for Protocol Verification}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{volume}{76}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{90\bibrangedash 111}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.jlap.2007.10.005
+      \endverb
+    \endentry
+    \entry{mciver_ProbabilisticConcurrentKleene_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4b20e9f564933c17471e86d416b8a63a}{%
+           family={McIver},
+           familyi={M\bibinitperiod},
+           given={Annabelle},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f87ad5cd98af5ef15d6961ca3938bbca}{%
+           family={Rabehaja},
+           familyi={R\bibinitperiod},
+           given={Tahiry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5f2d02a6fd2afc2a5a86408b4d85b117}{%
+           family={Struth},
+           familyi={S\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \strng{fullhash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \strng{bibnamehash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \strng{authorbibnamehash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \strng{authornamehash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \strng{authorfullhash}{6598c3078403d9eefd0ce903e8ab1e65}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2075-2180}
+      \field{journaltitle}{Electronic Proceedings in Theoretical Computer Science}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Probabilistic {{Concurrent Kleene Algebra}}}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{volume}{117}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{97\bibrangedash 115}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.4204/EPTCS.117.7
+      \endverb
+    \endentry
+    \entry{moller_AlgebraProgramCorrectness_2021}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=fd90c158b0b2acd9bf6cdea9ca41d062}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=47081da562cc1c0028bbc8eb4f38bdd8}{%
+           family={O'Hearn},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6502538c51ce07aebd2d0baf74172968}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=6dcc1ff1dee2597ea206d2d8fed057cc}{%
+           family={Fahrenberg},
+           familyi={F\bibinitperiod},
+           given={Uli},
+           giveni={U\bibinitperiod}}}%
+        {{hash=953f3d8fcbac86595b9aa2f9d0c5cb8c}{%
+           family={Gehrke},
+           familyi={G\bibinitperiod},
+           given={Mai},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a1b647ce70db6b28d7cde879a8e867b}{%
+           family={Santocanale},
+           familyi={S\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4f6fb664853bc3e88b0133c00294e4d3}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{fullhash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{bibnamehash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{authorbibnamehash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{authornamehash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{authorfullhash}{6ffde6bd7fc4f9db5b28d22fa0a91fa4}
+      \strng{editorbibnamehash}{f4199d9e84e5cbf7c0457fcec5ac3efa}
+      \strng{editornamehash}{f4199d9e84e5cbf7c0457fcec5ac3efa}
+      \strng{editorfullhash}{ea6721c36560d44e7631007ae88ba1d7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Relational and {{Algebraic Methods}} in {{Computer Science}}}
+      \field{isbn}{978-3-030-88700-1 978-3-030-88701-8}
+      \field{langid}{english}
+      \field{title}{On {{Algebra}} of {{Program Correctness}} and {{Incorrectness}}}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{volume}{13027}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{325\bibrangedash 343}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-3-030-88701-8_20
+      \endverb
+    \endentry
+    \entry{muller_LanguageAgnosticStaticDeadlock_2024a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=867034fee2e42c70edc9da620bc623d4}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Stefan\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Edinburgh United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{fullhash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{bibnamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authorbibnamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authornamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authorfullhash}{867034fee2e42c70edc9da620bc623d4}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 29th {{ACM SIGPLAN Annual Symposium}} on {{Principles}} and {{Practice}} of {{Parallel Programming}}}
+      \field{isbn}{9798400704352}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Language-{{Agnostic Static Deadlock Detection}} for {{Futures}}}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{68\bibrangedash 79}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/3627535.3638487
+      \endverb
+    \endentry
+    \entry{muller_StaticPredictionParallel_2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=867034fee2e42c70edc9da620bc623d4}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Stefan\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{fullhash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{bibnamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authorbibnamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authornamehash}{867034fee2e42c70edc9da620bc623d4}
+      \strng{authorfullhash}{867034fee2e42c70edc9da620bc623d4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2475-1421}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{title}{Static Prediction of Parallel Computation Graphs}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1145/3498708
+      \endverb
+    \endentry
+    \entry{muller_ResponsiveParallelismFutures_2020}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=867034fee2e42c70edc9da620bc623d4}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Stefan\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c21b962b5f01b5084b5fe0ab0a4ee02e}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c5f83330516647f90ad3f8846dc9e1ec}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6dea759cd78557b82fbf729a6bb8af93}{%
+           family={Acar},
+           familyi={A\bibinitperiod},
+           given={Umut\bibnamedelima A.},
+           giveni={U\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=70293eccb15bbce6c7dfc72b2dd5e49e}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=13664e2675ff0d148f5087e20cb9a226}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={I-Ting\bibnamedelima Angelina},
+           giveni={I\bibinithyphendelim T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London UK}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{ea28b255374f2a07650002ebcdbf997c}
+      \strng{fullhash}{48d8eded80811d8a244c2268005869f3}
+      \strng{bibnamehash}{ea28b255374f2a07650002ebcdbf997c}
+      \strng{authorbibnamehash}{ea28b255374f2a07650002ebcdbf997c}
+      \strng{authornamehash}{ea28b255374f2a07650002ebcdbf997c}
+      \strng{authorfullhash}{48d8eded80811d8a244c2268005869f3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 41st {{ACM SIGPLAN Conference}} on {{Programming Language Design}} and {{Implementation}}}
+      \field{isbn}{978-1-4503-7613-6}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Responsive Parallelism with Futures and State}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{577\bibrangedash 591}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1145/3385412.3386013
+      \endverb
+    \endentry
+    \entry{naik_EffectiveStaticDeadlock_2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=47faa626a6b37923463c0469c2a8cb85}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={Mayur},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2c89ec94d64a3919add09aa080d0d061}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Chang-Seo},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=6dec3318a42d8d397a59554c48b43851}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Koushik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=70b61430dd5fcb98b57d86ff8903def8}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, BC, Canada}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{db62eb92cf457e17d80f11f74d675fba}
+      \strng{fullhash}{cbc2b8bb2df8f509bfd3aee425b8e0d5}
+      \strng{bibnamehash}{db62eb92cf457e17d80f11f74d675fba}
+      \strng{authorbibnamehash}{db62eb92cf457e17d80f11f74d675fba}
+      \strng{authornamehash}{db62eb92cf457e17d80f11f74d675fba}
+      \strng{authorfullhash}{cbc2b8bb2df8f509bfd3aee425b8e0d5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 {{IEEE}} 31st {{International Conference}} on {{Software Engineering}}}
+      \field{isbn}{978-1-4244-3453-4}
+      \field{langid}{english}
+      \field{title}{Effective Static Deadlock Detection}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{386\bibrangedash 396}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ICSE.2009.5070538
+      \endverb
+    \endentry
+    \entry{naus_ReachabilityLogicLowLevel_2022a}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=88b9571eca566f46c8e8073c504e0393}{%
+           family={Naus},
+           familyi={N\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0510285932dd77e53d79dbeb18b8ba57}{%
+           family={Verbeek},
+           familyi={V\bibinitperiod},
+           given={Freek},
+           giveni={F\bibinitperiod}}}%
+        {{hash=80115b40191d422ad5936493822f9a4c}{%
+           family={Schoolderman},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b7b20a645f1ce1fc9d078ff9c6a0104}{%
+           family={Ravindran},
+           familyi={R\bibinitperiod},
+           given={Binoy},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{873043884e9551e36e7055e921fae3fe}
+      \strng{fullhash}{9ead4c41e809082982b4241348c03b6d}
+      \strng{bibnamehash}{873043884e9551e36e7055e921fae3fe}
+      \strng{authorbibnamehash}{873043884e9551e36e7055e921fae3fe}
+      \strng{authornamehash}{873043884e9551e36e7055e921fae3fe}
+      \strng{authorfullhash}{9ead4c41e809082982b4241348c03b6d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{3}
+      \field{number}{arXiv:2204.00076}
+      \field{title}{Reachability {{Logic}} for {{Low-Level Programs}}}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/arXiv.2204.00076
+      \endverb
+      \verb{eprint}
+      \verb 2204.00076
+      \endverb
+      \keyw{Computer Science - Logic in Computer Science}
+    \endentry
+    \entry{ohearn_IncorrectnessLogic_2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a4d9d06f404fc6167367e00ca67ac625}{%
+           family={O'Hearn},
+           familyi={O\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4d9d06f404fc6167367e00ca67ac625}
+      \strng{fullhash}{a4d9d06f404fc6167367e00ca67ac625}
+      \strng{bibnamehash}{a4d9d06f404fc6167367e00ca67ac625}
+      \strng{authorbibnamehash}{a4d9d06f404fc6167367e00ca67ac625}
+      \strng{authornamehash}{a4d9d06f404fc6167367e00ca67ac625}
+      \strng{authorfullhash}{a4d9d06f404fc6167367e00ca67ac625}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2475-1421, 2475-1421}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{title}{Incorrectness Logic}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1145/3371078
+      \endverb
+    \endentry
+    \entry{plotkin_AdequacyAlgebraicEffects_2001}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=5ac4023ed140a900b897444afb2c41d9}{%
+           family={Plotkin},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1ed57742541edb5e5c6e46f1b372aa6c}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=97b8779c08da200ee2eb194bdc10ae4f}{%
+           family={Goos},
+           familyi={G\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=84d4ea2bd3ec736effccd97ee64d09ef}{%
+           family={Hartmanis},
+           familyi={H\bibinitperiod},
+           given={Juris},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4e6d4340bf56539a33dcad95ee6e8fc5}{%
+           family={Van\bibnamedelima Leeuwen},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b36b326c1d8a44eb41ee902b3e391d62}{%
+           family={Honsell},
+           familyi={H\bibinitperiod},
+           given={Furio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=86bf5aa5120acb7a2dad8e2a1adf1e2d}{%
+           family={Miculan},
+           familyi={M\bibinitperiod},
+           given={Marino},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{fullhash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{bibnamehash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{authorbibnamehash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{authornamehash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{authorfullhash}{adfef711f93e74ab051301859f2a9b4c}
+      \strng{editorbibnamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editornamehash}{522af9cbd4958b79cc9ddb9b46943274}
+      \strng{editorfullhash}{332df071c53d8eba453d05815ec5b57a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Foundations of {{Software Science}} and {{Computation Structures}}}
+      \field{isbn}{978-3-540-41864-1 978-3-540-45315-4}
+      \field{langid}{english}
+      \field{title}{Adequacy for {{Algebraic Effects}}}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{2030}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/3-540-45315-6_1
+      \endverb
+    \endentry
+    \entry{plotkin_HandlersAlgebraicEffects_2009}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=5ac4023ed140a900b897444afb2c41d9}{%
+           family={Plotkin},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=433b7031b792be05f383415c64d5239a}{%
+           family={Pretnar},
+           familyi={P\bibinitperiod},
+           given={Matija},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=09525a633b0ac72424537eae41ec57e8}{%
+           family={Castagna},
+           familyi={C\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{d384481fabee862683f92836e119daa1}
+      \strng{fullhash}{d384481fabee862683f92836e119daa1}
+      \strng{bibnamehash}{d384481fabee862683f92836e119daa1}
+      \strng{authorbibnamehash}{d384481fabee862683f92836e119daa1}
+      \strng{authornamehash}{d384481fabee862683f92836e119daa1}
+      \strng{authorfullhash}{d384481fabee862683f92836e119daa1}
+      \strng{editorbibnamehash}{09525a633b0ac72424537eae41ec57e8}
+      \strng{editornamehash}{09525a633b0ac72424537eae41ec57e8}
+      \strng{editorfullhash}{09525a633b0ac72424537eae41ec57e8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Programming {{Languages}} and {{Systems}}}
+      \field{isbn}{978-3-642-00589-3 978-3-642-00590-9}
+      \field{langid}{english}
+      \field{title}{Handlers of {{Algebraic Effects}}}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{5502}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 94}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-642-00590-9_7
+      \endverb
+    \endentry
+    \entry{pous_SymbolicAlgorithmsLanguage_2015}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7dbfb8d285d47108e2d7d8ac1f74be2d}{%
+           family={Pous},
+           familyi={P\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \strng{fullhash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \strng{bibnamehash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \strng{authorbibnamehash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \strng{authornamehash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \strng{authorfullhash}{7dbfb8d285d47108e2d7d8ac1f74be2d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 42nd {{Annual ACM SIGPLAN-SIGACT Symposium}} on {{Principles}} of {{Programming Languages}}}
+      \field{isbn}{978-1-4503-3300-9}
+      \field{month}{1}
+      \field{series}{{{POPL}} '15}
+      \field{title}{Symbolic {{Algorithms}} for {{Language Equivalence}} and {{Kleene Algebra}} with {{Tests}}}
+      \field{year}{2015}
+      \field{pages}{357\bibrangedash 368}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/2676726.2677007
+      \endverb
+      \keyw{antimirov' partial derivatives,bdd,binary decision diagrams,brzozowski's derivatives,disjoint set forests,guarded string automata,kat,kleene algebra with tests,language equivalence,symbolic automata,union-find}
+    \endentry
+    \entry{pous_ToolsCompletenessKleene_2021}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7dbfb8d285d47108e2d7d8ac1f74be2d}{%
+           family={Pous},
+           familyi={P\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{hash=48854e20af3bf0c173419d6ca677b201}{%
+           family={Rot},
+           familyi={R\bibinitperiod},
+           given={Jurriaan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f65de02db0602b0c6f9927d61f2d7e0d}{%
+           family={Wagemaker},
+           familyi={W\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \strng{fullhash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \strng{bibnamehash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \strng{authorbibnamehash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \strng{authornamehash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \strng{authorfullhash}{3b7d420a9016bd297835bac8c5d01bcc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Relational and {{Algebraic Methods}} in {{Computer Science}}: 19th {{International Conference}}, {{RAMiCS}} 2021, {{Marseille}}, {{France}}, {{November}} 2--5, 2021, {{Proceedings}}}
+      \field{isbn}{978-3-030-88700-1}
+      \field{month}{11}
+      \field{title}{On {{Tools}} for {{Completeness}} of {{Kleene Algebra}} with {{Hypotheses}}}
+      \field{year}{2021}
+      \field{pages}{378\bibrangedash 395}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-030-88701-8_23
+      \endverb
+    \endentry
+    \entry{raad_LocalReasoningPresence_2020}{incollection}{}
+      \name{author}{6}{}{%
+        {{hash=cb9d146c4c3bcfc8788cc6934153c57d}{%
+           family={Raad},
+           familyi={R\bibinitperiod},
+           given={Azalea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8be52df6c77716854b91eb1bab75ff9e}{%
+           family={Berdine},
+           familyi={B\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f12c5c501eafc706c2e804adcb9415ef}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={Hoang-Hai},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=3c61a075f82133ed00b1cf07a5b5c194}{%
+           family={Dreyer},
+           familyi={D\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=47081da562cc1c0028bbc8eb4f38bdd8}{%
+           family={O'Hearn},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=acb0a4f3d692d17ca8e27ff2d147114a}{%
+           family={Villard},
+           familyi={V\bibinitperiod},
+           given={Jules},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9a06920f8645e691220f4461275d91f3}{%
+           family={Lahiri},
+           familyi={L\bibinitperiod},
+           given={Shuvendu\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3ad93e4c675a68a22a9c2c52b38e2751}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{a1285c74532af10accdf390c9a4e6b87}
+      \strng{fullhash}{41b07498186af1f8cb74f0b6becd6c2e}
+      \strng{bibnamehash}{a1285c74532af10accdf390c9a4e6b87}
+      \strng{authorbibnamehash}{a1285c74532af10accdf390c9a4e6b87}
+      \strng{authornamehash}{a1285c74532af10accdf390c9a4e6b87}
+      \strng{authorfullhash}{41b07498186af1f8cb74f0b6becd6c2e}
+      \strng{editorbibnamehash}{7625318d7320174ab5094a59635a0d3c}
+      \strng{editornamehash}{7625318d7320174ab5094a59635a0d3c}
+      \strng{editorfullhash}{7625318d7320174ab5094a59635a0d3c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Computer {{Aided Verification}}}
+      \field{isbn}{978-3-030-53290-1 978-3-030-53291-8}
+      \field{langid}{english}
+      \field{shorttitle}{Local {{Reasoning About}} the {{Presence}} of {{Bugs}}}
+      \field{title}{Local {{Reasoning About}} the {{Presence}} of {{Bugs}}: {{Incorrectness Separation Logic}}}
+      \field{volume}{12225}
+      \field{year}{2020}
+      \field{pages}{225\bibrangedash 252}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/978-3-030-53291-8_14
+      \endverb
+    \endentry
+    \entry{rinaldi_PipelinesGraphTypes_2024}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f85dc665f59eb5b564fa71ab6f6e57ee}{%
+           family={Rinaldi},
+           familyi={R\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=50f22cb8d6ef3384855532750f0ce1dd}{%
+           family={Wunder},
+           familyi={W\bibinitperiod},
+           given={June},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e9c3a6dc18432624f9e7e9d8ff515bcd}{%
+           family={Azevedo\bibnamedelimb De\bibnamedelima Amorim},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=867034fee2e42c70edc9da620bc623d4}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Stefan\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc7040c6403a20d5d3216c277451acde}
+      \strng{fullhash}{8a5914f35757b248591402e5f7b6bb09}
+      \strng{bibnamehash}{cc7040c6403a20d5d3216c277451acde}
+      \strng{authorbibnamehash}{cc7040c6403a20d5d3216c277451acde}
+      \strng{authornamehash}{cc7040c6403a20d5d3216c277451acde}
+      \strng{authorfullhash}{8a5914f35757b248591402e5f7b6bb09}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2475-1421}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{shorttitle}{Pipelines and {{Beyond}}}
+      \field{title}{Pipelines and {{Beyond}}: {{Graph Types}} for {{ADTs}} with {{Futures}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{482\bibrangedash 511}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1145/3632859
+      \endverb
+    \endentry
+    \entry{rozowski_ProbabilisticGuardedKAT_2023}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=8076873d1775c5f2def7aee61ec8d9f4}{%
+           family={Różowski},
+           familyi={R\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=07f77dbd12b0896250a2c67539a86985}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ec2f24f8bd57ac174158715fcca63a6e}
+      \strng{fullhash}{1273601f4cb8180c028569e620286ea3}
+      \strng{bibnamehash}{ec2f24f8bd57ac174158715fcca63a6e}
+      \strng{authorbibnamehash}{ec2f24f8bd57ac174158715fcca63a6e}
+      \strng{authornamehash}{ec2f24f8bd57ac174158715fcca63a6e}
+      \strng{authorfullhash}{1273601f4cb8180c028569e620286ea3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{number}{arXiv:2305.01755}
+      \field{shorttitle}{Probabilistic {{Guarded KAT Modulo Bisimilarity}}}
+      \field{title}{Probabilistic {{Guarded KAT Modulo Bisimilarity}}: {{Completeness}} and {{Complexity}}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.01755
+      \endverb
+      \verb{eprint}
+      \verb 2305.01755
+      \endverb
+    \endentry
+    \entry{schmid_GuardedKleeneAlgebra_2021}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=07f77dbd12b0896250a2c67539a86985}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{728eeca80f8b48ec2bf458954888346b}
+      \strng{fullhash}{8174104f56bc5941db9d5adf06313225}
+      \strng{bibnamehash}{728eeca80f8b48ec2bf458954888346b}
+      \strng{authorbibnamehash}{728eeca80f8b48ec2bf458954888346b}
+      \strng{authornamehash}{728eeca80f8b48ec2bf458954888346b}
+      \strng{authorfullhash}{8174104f56bc5941db9d5adf06313225}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{shorttitle}{Guarded {{Kleene Algebra}} with {{Tests}}}
+      \field{title}{Guarded {{Kleene Algebra}} with {{Tests}}: {{Coequations}}, {{Coinduction}}, and {{Completeness}}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.4230/LIPIcs.ICALP.2021.142
+      \endverb
+      \verb{eprint}
+      \verb 2102.08286
+      \endverb
+      \keyw{Computer Science - Logic in Computer Science,Computer Science - Programming Languages}
+    \endentry
+    \entry{schmid_CoalgebraicCompletenessTheorems_2024}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b65ff38d25781eb39fec64b92379cc96}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Todd\bibnamedelimb Junior\bibnamedelima Wayne},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UCL (University College London)}%
+      }
+      \strng{namehash}{b65ff38d25781eb39fec64b92379cc96}
+      \strng{fullhash}{b65ff38d25781eb39fec64b92379cc96}
+      \strng{bibnamehash}{b65ff38d25781eb39fec64b92379cc96}
+      \strng{authorbibnamehash}{b65ff38d25781eb39fec64b92379cc96}
+      \strng{authornamehash}{b65ff38d25781eb39fec64b92379cc96}
+      \strng{authorfullhash}{b65ff38d25781eb39fec64b92379cc96}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Doctoral thesis, UCL (University College London).}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Coalgebraic {{Completeness Theorems}} for {{Effectful Process Algebras}}}
+      \field{type}{Doctoral}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{sedlar_ComplexityKleeneAlgebra_2023}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=df37cc11b45265e1a7e681f55e957b3a}{%
+           family={Sedlár},
+           familyi={S\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{df37cc11b45265e1a7e681f55e957b3a}
+      \strng{fullhash}{df37cc11b45265e1a7e681f55e957b3a}
+      \strng{bibnamehash}{df37cc11b45265e1a7e681f55e957b3a}
+      \strng{authorbibnamehash}{df37cc11b45265e1a7e681f55e957b3a}
+      \strng{authornamehash}{df37cc11b45265e1a7e681f55e957b3a}
+      \strng{authorfullhash}{df37cc11b45265e1a7e681f55e957b3a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Relational and {{Algebraic Methods}} in {{Computer Science}}: 20th {{International Conference}}, {{RAMiCS}} 2023, {{Augsburg}}, {{Germany}}, {{April}} 3--6, 2023, {{Proceedings}}}
+      \field{isbn}{978-3-031-28082-5}
+      \field{month}{4}
+      \field{title}{On the~{{Complexity}} of~{{Kleene Algebra}} with~{{Domain}}}
+      \field{year}{2023}
+      \field{pages}{208\bibrangedash 223}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-031-28083-2_13
+      \endverb
+      \keyw{Complexity,Kleene algebra,Kleene algebra with domain,Propositional dynamic logic,Test algebra}
+    \endentry
+    \entry{smolka_GuardedKleeneAlgebra_2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f5d87cd894b3757a6c678fc89ddcca3c}{%
+           family={Smolka},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b11bb7f14f3a81104140baf5954f83f}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{fullhash}{d1684fb9777fcdd11999af3c5142deaf}
+      \strng{bibnamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authorbibnamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authornamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authorfullhash}{d1684fb9777fcdd11999af3c5142deaf}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2475-1421}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{shorttitle}{Guarded {{Kleene}} Algebra with Tests}
+      \field{title}{Guarded {{Kleene}} Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1145/3371129
+      \endverb
+    \endentry
+    \entry{smolka_ScalableVerificationProbabilistic_2019}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=f5d87cd894b3757a6c678fc89ddcca3c}{%
+           family={Smolka},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ac5ce9110ee23fd70d895dc0641d6d97}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Praveen},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b351d71975358e47366689532c954d2c}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b11bb7f14f3a81104140baf5954f83f}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d2074648976a36dff1e51ca8e744276b}{%
+           family={Kozen},
+           familyi={K\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Phoenix AZ USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{fullhash}{dd889ab7c5026d1a57ef25258928b26c}
+      \strng{bibnamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authorbibnamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authornamehash}{eee8b24d365e70f4e6fa51f02a83953a}
+      \strng{authorfullhash}{dd889ab7c5026d1a57ef25258928b26c}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 40th {{ACM SIGPLAN Conference}} on {{Programming Language Design}} and {{Implementation}}}
+      \field{isbn}{978-1-4503-6712-7}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Scalable Verification of Probabilistic Networks}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{190\bibrangedash 203}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3314221.3314639
+      \endverb
+    \endentry
+    \entry{wagemaker_PartiallyObservableConcurrent_2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f65de02db0602b0c6f9927d61f2d7e0d}{%
+           family={Wagemaker},
+           familyi={W\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b149e9607295bd7e8c6d08e98279ab8}{%
+           family={Brunet},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7f114b3120cc4ffc77d261830d6ea10f}{%
+           family={Docherty},
+           familyi={D\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=48854e20af3bf0c173419d6ca677b201}{%
+           family={Rot},
+           familyi={R\bibinitperiod},
+           given={Jurriaan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b75accb7828bac3d5aa4bb89fbd6ff0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcc882caa80a6109ebd3945a94ae0e87}
+      \strng{fullhash}{c26a6caa908cde105bc6afe1707f1097}
+      \strng{bibnamehash}{fcc882caa80a6109ebd3945a94ae0e87}
+      \strng{authorbibnamehash}{fcc882caa80a6109ebd3945a94ae0e87}
+      \strng{authornamehash}{fcc882caa80a6109ebd3945a94ae0e87}
+      \strng{authorfullhash}{c26a6caa908cde105bc6afe1707f1097}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1868-8969}
+      \field{journaltitle}{LIPIcs, Volume 171, CONCUR 2020}
+      \field{langid}{english}
+      \field{title}{Partially {{Observable Concurrent Kleene Algebra}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{171}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{20:1\bibrangedash 20:22}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.4230/LIPIcs.CONCUR.2020.20
+      \endverb
+      \verb{eprint}
+      \verb 2007.07593
+      \endverb
+    \endentry
+    \entry{williams_StaticDeadlockDetection_2005}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=fadecd819ee12fb2d1b7a50b13dc4d15}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b9e84695b944cfebe699d94b3d3ece01}{%
+           family={Thies},
+           familyi={T\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7cc1cf4fe6d5d2a0088aa8f3f40ffc8f}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{16}{}{%
+        {{hash=d003d9a994005f480f7fa06dde74326e}{%
+           family={Hutchison},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dd3a56c94774f5880ca7475fdc308ea}{%
+           family={Kittler},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb11814963625d418100ec9ca3710333}{%
+           family={Kleinberg},
+           familyi={K\bibinitperiod},
+           given={Jon\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e07c4272d13053fc36d770d4735f2c14}{%
+           family={Mattern},
+           familyi={M\bibinitperiod},
+           given={Friedemann},
+           giveni={F\bibinitperiod}}}%
+        {{hash=47dbc192a926109dd86ea18b25249a93}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c6af39e79e88306281e6e0b0ccea956c}{%
+           family={Naor},
+           familyi={N\bibinitperiod},
+           given={Moni},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d3ea70a5274b32c8a184dd4d844ee47}{%
+           family={Nierstrasz},
+           familyi={N\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcab2334dc65214139b0ad45fe8185e}{%
+           family={Pandu\bibnamedelima Rangan},
+           familyi={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=665b6687b4ed05721bf55d61032505ca}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8753fbfaaa4aa8a1195c657edc9daef4}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd9aa5de7673e375889cc32997ef97df}{%
+           family={Terzopoulos},
+           familyi={T\bibinitperiod},
+           given={Demetri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ddfb7c40f1ab7e805c025ac7ef922cc7}{%
+           family={Tygar},
+           familyi={T\bibinitperiod},
+           given={Dough},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a4cf237a06b02ad7e7601b14b4d005be}{%
+           family={Vardi},
+           familyi={V\bibinitperiod},
+           given={Moshe\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e47f9d085c16045a5911784850208ada}{%
+           family={Weikum},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0fca7c4d4f88febc693634735cd6a27d}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{fullhash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{bibnamehash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{authorbibnamehash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{authornamehash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{authorfullhash}{8160eaabc65a9f7c7566149f252a3986}
+      \strng{editorbibnamehash}{1878e5aaeb2ba2e2aaa5cb8a1a7cf207}
+      \strng{editornamehash}{1878e5aaeb2ba2e2aaa5cb8a1a7cf207}
+      \strng{editorfullhash}{bd7fb8a1cc054a040b6315a347c6aeec}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{ECOOP}} 2005 - {{Object-Oriented Programming}}}
+      \field{isbn}{978-3-540-27992-1 978-3-540-31725-8}
+      \field{langid}{english}
+      \field{title}{Static {{Deadlock Detection}} for {{Java Libraries}}}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{3586}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{602\bibrangedash 629}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/11531142_26
+      \endverb
+    \endentry
+    \entry{yakdan_NoMoreGotos_2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=cdc919da8cfbc11c32a584450532b4d4}{%
+           family={Yakdan},
+           familyi={Y\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dfae394d2a4ba5b184b4c028a30d66c2}{%
+           family={Eschweiler},
+           familyi={E\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a57d08a308821e69d6b76ba1cc455dd1}{%
+           family={{Gerhards-Padilla}},
+           familyi={G\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=892bcbf9fb91b1348837862cbf71f80f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA}%
+      }
+      \list{publisher}{1}{%
+        {Internet Society}%
+      }
+      \strng{namehash}{dde5953f391a9a034de16fd146679557}
+      \strng{fullhash}{6c43c8f9d51f3ba71cfd2f08e42cac13}
+      \strng{bibnamehash}{dde5953f391a9a034de16fd146679557}
+      \strng{authorbibnamehash}{dde5953f391a9a034de16fd146679557}
+      \strng{authornamehash}{dde5953f391a9a034de16fd146679557}
+      \strng{authorfullhash}{6c43c8f9d51f3ba71cfd2f08e42cac13}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings 2015 {{Network}} and {{Distributed System Security Symposium}}}
+      \field{isbn}{978-1-891562-38-9}
+      \field{langid}{english}
+      \field{shorttitle}{No {{More Gotos}}}
+      \field{title}{No {{More Gotos}}: {{Decompilation Using Pattern-Independent Control-Flow Structuring}} and {{Semantics-Preserving Transformations}}}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.14722/ndss.2015.23185
+      \endverb
+    \endentry
+    \entry{zhang_DomainReasoningTopKAT_2024}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e5da47a41e502f3417ae64ee43ffdc85}{%
+           family={{de Amorim}},
+           familyi={d\bibinitperiod},
+           given={Arthur\bibnamedelima Azevedo},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2236e238d6bdc3c54b604fb209e4f6d2}{%
+           family={Gaboardi},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{fullhash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{bibnamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authorbibnamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authornamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authorfullhash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{title}{Domain {{Reasoning}} in {{TopKAT}}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.4230/LIPIcs.ICALP.2024.133
+      \endverb
+      \verb{eprint}
+      \verb 2404.18417
+      \endverb
+      \keyw{Computer Science - Logic in Computer Science,Computer Science - Programming Languages}
+    \endentry
+    \entry{zhang_IncorrectnessLogicKleene_2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e5da47a41e502f3417ae64ee43ffdc85}{%
+           family={{de Amorim}},
+           familyi={d\bibinitperiod},
+           given={Arthur\bibnamedelima Azevedo},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2236e238d6bdc3c54b604fb209e4f6d2}{%
+           family={Gaboardi},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{fullhash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{bibnamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authorbibnamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authornamehash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \strng{authorfullhash}{26b8fd11ebd1a76584e555aab5727dfa}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{month}{1}
+      \field{number}{POPL}
+      \field{title}{On Incorrectness Logic and {{Kleene}} Algebra with Top and Tests}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{29:1\bibrangedash 29:30}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3498690
+      \endverb
+      \keyw{Hoare Logic,Incorrectness Logic,Kleene Algebra with Tests,Program Reasoning}
+    \endentry
+    \entry{zhang_CFGKATEfficientValidation_2025}{article}{}
+      \name{author}{4}{}{%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f90db33938d1f4da5a258724c590ed16}{%
+           family={Kappé},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5faddd27f06626413277c7a31e6ab6d3}{%
+           family={Narváez},
+           familyi={N\bibinitperiod},
+           given={David\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=88b9571eca566f46c8e8073c504e0393}{%
+           family={Naus},
+           familyi={N\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d5ad0b09ef84b278454f4af16a82311}
+      \strng{fullhash}{6be282e66c09a4b1d44c2a914626d516}
+      \strng{bibnamehash}{0d5ad0b09ef84b278454f4af16a82311}
+      \strng{authorbibnamehash}{0d5ad0b09ef84b278454f4af16a82311}
+      \strng{authornamehash}{0d5ad0b09ef84b278454f4af16a82311}
+      \strng{authorfullhash}{6be282e66c09a4b1d44c2a914626d516}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{langid}{english}
+      \field{number}{POPL}
+      \field{title}{{{CF-GKAT}}: {{Efficient Validation}} of {{Control-Flow Transformations}}}
+      \field{year}{2025}
+    \endentry
+    \entry{zhang_NetterProbabilisticStateful_2021}{incollection}{}
+      \name{author}{6}{}{%
+        {{hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dab90d227b512e9cedb41532e46ba87a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=02d2f673e53e4363192e7e77ecbe8fb4}{%
+           family={{Azevedo de Amorim}},
+           familyi={A\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aee759f0db79d628438edd12223ddcad}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Yuvraj},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ca53191803a563335db0f1917ff556b2}{%
+           family={Fredrikson},
+           familyi={F\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e5c85a8a5fb7f081cc0c2634812a271}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Limin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3ad5d3ed3df574265dadd8a7e9fce664}{%
+           family={Henglein},
+           familyi={H\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9123c2f21c3c72bbeb5d7aa3db1d89bf}{%
+           family={Shoham},
+           familyi={S\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=35b1b487afe69d81201029bd40df55e2}{%
+           family={Vizel},
+           familyi={V\bibinitperiod},
+           given={Yakir},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{fullhash}{9db9a7d8ba7bafd4c844a627f6a797fd}
+      \strng{bibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authorbibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authornamehash}{435720fb71fff6bd0bc5be7059a41b43}
+      \strng{authorfullhash}{9db9a7d8ba7bafd4c844a627f6a797fd}
+      \strng{editorbibnamehash}{154babf339cf6a4f9040e45213baec17}
+      \strng{editornamehash}{154babf339cf6a4f9040e45213baec17}
+      \strng{editorfullhash}{154babf339cf6a4f9040e45213baec17}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Verification, {{Model Checking}}, and {{Abstract Interpretation}}}
+      \field{isbn}{978-3-030-67066-5 978-3-030-67067-2}
+      \field{langid}{english}
+      \field{shorttitle}{Netter}
+      \field{title}{Netter: {{Probabilistic}}, {{Stateful Network Models}}}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{volume}{12597}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{486\bibrangedash 508}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-030-67067-2_22
+      \endverb
+    \endentry
+    \entry{zhang_QuantitativeStrongestPost_2022b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ab322b98c00b041ce7e5941c8e901c46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Linpeng},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a82c04370c73f1ddff9a3487e8d8044d}{%
+           family={Kaminski},
+           familyi={K\bibinitperiod},
+           given={Benjamin\bibnamedelima Lucien},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{86a1157731870fa067ff4bb1abc0be2e}
+      \strng{fullhash}{86a1157731870fa067ff4bb1abc0be2e}
+      \strng{bibnamehash}{86a1157731870fa067ff4bb1abc0be2e}
+      \strng{authorbibnamehash}{86a1157731870fa067ff4bb1abc0be2e}
+      \strng{authornamehash}{86a1157731870fa067ff4bb1abc0be2e}
+      \strng{authorfullhash}{86a1157731870fa067ff4bb1abc0be2e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{month}{4}
+      \field{number}{OOPSLA1}
+      \field{shorttitle}{Quantitative Strongest Post}
+      \field{title}{Quantitative Strongest Post: A Calculus for Reasoning about the Flow of Quantitative Information}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{87:1\bibrangedash 87:29}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3527331
+      \endverb
+      \keyw{Incorrectness Logic,Quantitative Verification,Strongest Postcondition,Weakest Precondition}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
