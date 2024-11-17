@@ -83,19 +83,19 @@
 
 Many challenges in computer science can be formulated as program equivalences, where we seek to establish that two programs behave similarly or identically. 
 For example, the correctness of compilers and decompilers can be defined by the equivalence of the input and output programs. 
-Similarly, the correctness of machine learning model compression can be verified by the equivalence of the model's behavior before and after compression. 
+Similarly, the correctness of machine-learning model compression can be verified by the equivalence of the model's behavior before and after compression. 
 The integrity of privacy and security algorithms can also be characterized by their indistinguishability from ideal scenarios. 
-Many complex problems, such as network reachability, network traffic isolation, program logic, and computational effects, can all be formalized and analyzed using equations~\cite{anderson_NetKATSemanticFoundations_2014a,zhang_IncorrectnessLogicKleene_2022,moller_AlgebraProgramCorrectness_2021,plotkin_HandlersAlgebraicEffects_2009,plotkin_AdequacyAlgebraicEffects_2001}.
+More surprisingly, problems like network reachability, network traffic isolation, program logic, and computational effects, can all be formalized and analyzed using equations~\cite{anderson_NetKATSemanticFoundations_2014a,zhang_IncorrectnessLogicKleene_2022,moller_AlgebraProgramCorrectness_2021,plotkin_HandlersAlgebraicEffects_2009,plotkin_AdequacyAlgebraicEffects_2001}.
 
 While general program equivalences remain undecidable, Kleene Algebra (KA), an abstract algebraic system rooted in automata theory, has shown great promise in both proving and automating program equivalences in various domains. 
 The theoretical elegance of Kleene Algebra have inspired a wealth of foundational research~\cite{smolka_GuardedKleeneAlgebra_2020,schmid_GuardedKleeneAlgebra_2021,jacobs_BialgebraicReviewDeterministic_2006,kozen_CoalgebraicTheoryKleene_2008,schmid_CoalgebraicCompletenessTheorems_2024,rozowski_ProbabilisticGuardedKAT_2023}; and the practical systems based on Kleene Algebra have excelled in compiler verification~\cite{kozen_CertificationCompilerOptimizations_2000d}, (probabilistic) network systems~\cite{anderson_NetKATSemanticFoundations_2014a,foster_CoalgebraicDecisionProcedure_2015,smolka_ScalableVerificationProbabilistic_2019,zhang_NetterProbabilisticStateful_2021}, weak memory model~\cite{kokologiannakis_KaterAutomatingWeak_2023}, and distributed systems~\cite{mciver_UsingProbabilisticKleene_2008}. 
 Notably, some of these tools have matched or even outperformed state-of-the-art tools in their respective domains.
 
-My research occupies this unique position, at the intersection of theory and practice, enabling me to collaborate with researchers and students with diverse backgrounds, and produce interesting results on both sides. 
-My research workflow usually involves learning about specific application domains, applying the perspective of Kleene Algebra to solve pressing problems, and refining theoretical tooling to achieve the most elegant solutions. 
+My research is nicely positioned at the intersection of theory and practice, enabling me to collaborate with researchers and students with diverse backgrounds, and produce interesting results on both sides. 
+My research workflow usually involves learning about specific application domains, applying the perspective of Kleene Algebra to understand and tackle problems, and refining theoretical tooling to achieve the most elegant solutions. 
 This approach has proven to be effective for me, yielding both rich theoretical frameworks and efficient tools, while also identifying promising open problems for future exploration. 
-My current work has been applied to program logics~\cite{zhang_IncorrectnessLogicKleene_2022,zhang_DomainReasoningTopKAT_2024} and decompiler validation~\cite{zhang_CFGKATEfficientValidation_2025},published in top-tier conferences like POPL and ICALP. 
-Additionally, my theoretical ventures have demonstrated the limitations of alignment reasoning in relational verification, resolved a long-standing open problem in Kleene Algebra~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024a}, and developed an algebraic perspective of the reduction technique in Kleene Algebra~\cite{zhang_DomainReasoningTopKAT_2024}.
+My current work has been applied to program logics~\cite{zhang_IncorrectnessLogicKleene_2022,zhang_DomainReasoningTopKAT_2024} and decompiler validation~\cite{zhang_CFGKATEfficientValidation_2025}; all published in top-tier conferences like POPL and ICALP. 
+Additionally, my theoretical ventures have demonstrated the limitations of alignment reasoning in relational verification, resolved a long-standing open problem in Kleene Algebra~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024a}, developed an algebraic perspective of the reduction technique in Kleene Algebra~\cite{zhang_DomainReasoningTopKAT_2024}, and developed efficient algorithm to check the equivalence of uninterpreted programs~\cite{zhang_EfficientSymbolicAlgorithms_2025}.
 
 
 \section{TopKAT: A Unified View Of Program Logic}
@@ -131,7 +131,7 @@ And its efficiency and correctness allow our works to be invoked automatically o
 
 \textbf{Future works:}
 This project can evolve in several ways. 
-Practically, we can enhance our implementation with symbolic techniques, develop an axiomatic proof system for simpler correctness proofs of our (de)compilation algorithms, or introduce more control-flow structures to improve the language's expressiveness.
+Practically, we can enhance our implementation with symbolic techniques, introduce more control-flow structures to improve the language's expressiveness, or develop an axiomatic proof system for simpler correctness proofs of our (de)compilation algorithms.
 Theoretically, we can simplify our proofs by investigating the coalgebraic theory of our systems and by adopting a modular approach to control-flow features. 
 By building the system in a modular way, we can also facilitate future extensions and ensure that theoretical properties hold for each subsystem. 
 
