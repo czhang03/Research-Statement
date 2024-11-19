@@ -80,6 +80,8 @@
 
 % set spacing
 \setlength\parskip{8px}
+% avoid paraskip on the first paragraph
+\vspace{-\parskip} 
 
 Many challenges in computer science can be formulated as program equivalences, where we seek to establish that two programs behave similarly or identically. 
 For example, the correctness of compilers and decompilers can be defined by the equivalence of the input and output programs. 
