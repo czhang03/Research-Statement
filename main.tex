@@ -93,14 +93,15 @@ While general program equivalences remain undecidable, Kleene Algebra (KA), an a
 The theoretical elegance of Kleene Algebra have inspired a wealth of foundational research~\cite{smolka_GuardedKleeneAlgebra_2020,schmid_GuardedKleeneAlgebra_2021,jacobs_BialgebraicReviewDeterministic_2006,kozen_CoalgebraicTheoryKleene_2008,schmid_CoalgebraicCompletenessTheorems_2024,rozowski_ProbabilisticGuardedKAT_2023}; and the practical systems based on Kleene Algebra have excelled in compiler verification~\cite{kozen_CertificationCompilerOptimizations_2000d}, (probabilistic) network systems~\cite{anderson_NetKATSemanticFoundations_2014a,foster_CoalgebraicDecisionProcedure_2015,smolka_ScalableVerificationProbabilistic_2019,zhang_NetterProbabilisticStateful_2021}, weak memory model~\cite{kokologiannakis_KaterAutomatingWeak_2023}, and distributed systems~\cite{mciver_UsingProbabilisticKleene_2008}. 
 Notably, some of these tools have matched or even outperformed state-of-the-art tools in their respective domains.
 
-My research is nicely positioned at the intersection of theory and practice, enabling me to collaborate with researchers and students with diverse backgrounds, and produce interesting results on both sides. 
-My research workflow usually involves learning about specific application domains, applying the perspective of Kleene Algebra to understand and tackle problems, and refining theoretical tooling to achieve the most elegant solutions. 
+My research is nicely positioned at the intersection of theory and practice of Kleene Algebra, enabling me to collaborate with researchers and students with diverse backgrounds, and produce interesting results on both sides. 
+My research workflow usually involves learning about specific application domains, applying the perspective of Kleene Algebra to understand and tackle practical problems, then refining theory to achieve the most elegant solutions. 
 This approach has proven to be effective for me, yielding both rich theoretical frameworks and efficient tools, while also identifying promising open problems for future exploration. 
 My current work has been applied to program logics~\cite{zhang_IncorrectnessLogicKleene_2022,zhang_DomainReasoningTopKAT_2024} and decompiler validation~\cite{zhang_CFGKATEfficientValidation_2025}; all published in top-tier conferences like POPL and ICALP. 
 Additionally, my theoretical ventures have demonstrated the limitations of alignment reasoning in relational verification, resolved a long-standing open problem in Kleene Algebra~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024a}, developed an algebraic perspective of the reduction technique in Kleene Algebra~\cite{zhang_DomainReasoningTopKAT_2024}, and developed efficient algorithm to check the equivalence of uninterpreted programs~\cite{zhang_EfficientSymbolicAlgorithms_2025}.
 
+\section{Past and Ongoing Works}
 
-\section{TopKAT: A Unified View Of Program Logic}
+\mysubsection{TopKAT: A Unified View Of Program Logic}
 
 Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantic domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
 To unify the theory of incorrectness logic in these semantic domains, we tried to use Kleene algebra with tests (KAT) as an algebraic semantic foundation. 
@@ -114,16 +115,13 @@ In this work, we used techniques in universal algebra to streamline the definiti
 This new perspective greatly simplified previous completeness proofs, and also allowed us to prove the relational completeness with regard domain-comparison inequalities. 
 This result has not only demonstrated the effectiveness of reasoning about incorrectness and Hoare logics using TopKAT, but also other logics like reachability logic~\cite{naus_ReachabilityLogicLowLevel_2022a} as well.
 
-\textbf{Future Works:}
-There are two interesting future directions of this work.
-Practically, many features of program logic can be combined to improve the theory and automation, like separation and relational reasoning. 
-Specifically, separation will enable modular program reasoning, which can speed up automation. 
-Relational reasoning is used in the verification cryptography and privacy. 
-Addressing relational verification could develop tools that enhance the scalability of crypto-protocol verification. 
-Theoretically, I want to design a general and compositional theory of reduction based on our novel algebraic notion of reduction. 
-This work will greatly simplify the completeness and decidablility proofs of Kleene Algebra extensions. 
+% \textbf{Future Works:}
+% Many features of program logic can be combined to improve the theory and automation, like separation and relational reasoning. 
+% Specifically, separation will enable modular program reasoning, which can speed up automation. 
+% Relational reasoning is used in the verification cryptography and privacy. 
+% Addressing relational verification could develop tools that enhance the scalability of crypto-protocol verification. 
 
-\section{CF-GKAT, control flow verification in nearly linear time}
+\mysubsection{CF-GKAT, control flow verification in nearly linear time}
 
 Control-flow manipulation is a prevalent task in software engineering, thus verifying its correctness is crucial to ensure software reliability.
 Our work, building upon foundational researches on guarded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020} and the theory of non-local control flow in Kleene algebra~\cite{kozen_NonlocalFlowControl_2008a}, greatly simplifies process of control-flow verification.
@@ -131,51 +129,88 @@ Specifically, We extended GKAT automaton to handel common control structures, in
 These extensions enable us to validate a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000d}.
 And its efficiency and correctness allow our works to be invoked automatically on-the-fly, or be used as a framework in a proof assistant.
 
-\textbf{Future works:}
-This project can evolve in several ways. 
-Practically, we can enhance our implementation with symbolic techniques, introduce more control-flow structures to improve the language's expressiveness, or develop an axiomatic proof system for simpler correctness proofs of our (de)compilation algorithms.
-Theoretically, we can simplify our proofs by investigating the coalgebraic theory of our systems and by adopting a modular approach to control-flow features. 
-By building the system in a modular way, we can also facilitate future extensions and ensure that theoretical properties hold for each subsystem. 
+% \textbf{Future works:}
+% This project can evolve in several ways. 
+% Practically, we can enhance our implementation with symbolic techniques, introduce more control-flow structures to improve the language's expressiveness, or develop an axiomatic proof system for simpler correctness proofs of our (de)compilation algorithms.
+% Theoretically, we can simplify our proofs by investigating the coalgebraic theory of our systems and by adopting a modular approach to control-flow features. 
+% By building the system in a modular way, we can also facilitate future extensions and ensure that theoretical properties hold for each subsystem. 
 
-\section{Efficient Symbolic On-the-fly Algorithm for GKAT}
+\mysubsection{Efficient Symbolic On-the-fly Algorithm for GKAT}
 
 In the process of implementing CF-GKAT, we have identified several ways to improve the efficiency of GKAT equivalences.
 For example, when there is a large amount of primitive test (primitive conditional statements used in if-statement and while-loops), the memory usage and runtime of the original algorithm~\cite{smolka_GuardedKleeneAlgebra_2020} will blowup exponentially. 
 The large memory usage is typically resolved using derivatives to produce the automaton on-the-fly~\cite{brzozowski_DerivativesRegularExpressions_1964, schmid_GuardedKleeneAlgebra_2021}, whereas the long runtime can be optimized using symbolic automaton~\cite{pous_SymbolicAlgorithmsLanguage_2015}. 
 
-Our latest work marries these two ideas, and built a theory of symbolic GKAT coalgebra, where we designed several efficient symbolic equivalence-checking algorithm for GKAT. 
+In collaboration with two undergrad students, our latest work marries these two ideas, and built a theory of symbolic GKAT coalgebra, which gives rises to several efficient symbolic equivalence-checking algorithms for GKAT. 
 Unlike similar works on KAT~\cite{pous_SymbolicAlgorithmsLanguage_2015}, the structure of GKAT enables us to export the complex boolean logic into a fast and reliable solvers like z3; further improving the efficiency of our implementation.
 Our rust implementation can decide large equivalences (with more than 500 commands pre expression) in seconds with only couple megabytes of memory usage.
 This work also characterized the exact complexity of GKAT, which is co-NP-complete.
 
 
-\section{Kleene Algebra With Commutativity Hypothesis}
+\mysubsection{Kleene Algebra With Commutativity Hypothesis}
 
-Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, yet recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
+Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, and recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
 Contrary to its broad applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
 Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
 Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypothesis, generalizing the result of Kuznetsov.
 
-\textbf{Future works:}
-This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. 
-Next, I seek to design a decidable algebraic theory for a restricted version of the alignment problem, and investigate its practical use cases.
+% \textbf{Future works:}
+% This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. 
+% Next, I seek to design a decidable algebraic theory for a restricted version of the alignment problem, and investigate its practical use cases.
 
-\section{Other Directions}
+\newpage
+\section{Vision for Future Works}
 
-\mysubsection{Session Type With Dynamic Information}
-Session type systems provide a formal framework for specifying and verifying communication protocols between two parties, ensuring security properties such as deadlock freedom.
-However, their expressiveness is limited when it comes to protocols that rely on dynamic information, such as leader election, resource allocation, and load balancing, where the subsequent actions depend on factors that are determined at runtime, like available system resources.
-To address this limitation, I plan to extend session type systems with dynamic decision-making capabilities and leverage the efficient decision procedure of guarded Kleene algebra with tests (GKAT) to design type-checking algorithms for this new framework.
-By combining the strengths of session types and GKAT, I believe we can develop a robust, expressive, and efficient type system that can verify complex communication protocols in a timely manner.
+My work has underscored the vast potential of algebraic methods in program verification, an approach that has gained significant attention recently as researchers seek to leverage the wealth of mathematical theory in real-world applications.
+For my future work, I am committed to continue bringing foundational research in the real-world, and discovering new interesting theoretical directions thorough practice.
 
-\mysubsection{Future, Deadlock, and Data Races}
+Besides refining my current work and incorporating more practical features into systems like TopKAT and CF-GKAT, I also aim to expand the theory of algebraic reasoning into exciting new domains. 
+One such domain is distributed systems and concurrency, where, despite a substantial body of semantic work~\cite{hoare_ConcurrentKleeneAlgebra_2011,kappe_ConcurrentKleeneAlgebra_2020,kappe_ConcurrentKleeneAlgebra_2018,wagemaker_PartiallyObservableConcurrent_2020,mciver_ProbabilisticConcurrentKleene_2013}, there is a notable gap between algebraic foundations and the developments of practical tools.
 
-In addition to type-based approaches to eliminate deadlock, I am also interested in detecting deadlock and data races in existing code bases without manual type annotations, particularly in systems with threads accessing a shared memory.
-Traditional detection tools are often language-specific~\cite{williams_StaticDeadlockDetection_2005,masticola_StaticDetectionDeadlocks_1993,engler_RacerXEffectiveStatic_2003,naik_EffectiveStaticDeadlock_2009}, but recent graph-based techniques offer a robust alternative. 
-This approach encodes a program's execution in a graph and performs deadlock and data race detection on it~\cite{muller_StaticPredictionParallel_2022,muller_ResponsiveParallelismFutures_2020,rinaldi_PipelinesGraphTypes_2024,muller_LanguageAgnosticStaticDeadlock_2024a}.
-I seek to bring the (co)algebraic perspective to this line of research, leveraging Kleene Algebra to establish connections between graphs and semantics. 
-This will deepen our understanding of the graph-based techniques, potentially leading to more efficient deadlock and data-race detection, as well as a formal proof system to ensure deadlock and data-race freedom.
-This endeavor also requires exciting extensions to concurrent Kleene Algebra~\cite{hoare_ConcurrentKleeneAlgebra_2011,kappe_ConcurrentKleeneAlgebra_2020,kappe_ConcurrentKleeneAlgebra_2018,wagemaker_PartiallyObservableConcurrent_2020,mciver_ProbabilisticConcurrentKleene_2013}, including support for \verb|future|, a common way to construct concurrent computations in modern programming languages; and a framework for analyzing data dependencies, a key cause of deadlocks and data-races.
+Two significant problems that plague concurrent programming and distributed systems are deadlocks and data-races.
+Although various tools have been designed to detect these undesirable behaviors~\cite{williams_StaticDeadlockDetection_2005,masticola_StaticDetectionDeadlocks_1993,engler_RacerXEffectiveStatic_2003,naik_EffectiveStaticDeadlock_2009}, many of these tools are language-specific and lack connections to existing semantic works. 
+I aim to study these problems from an algebraic perspective based on well-developed semantic foundation, with the goal of developing both generic proof systems and efficient automation. 
+Specifically, I believe there are two practical approaches which could benefit from said algebraic approach.
+
+\mysubsection{Session Types With Refinement Branching}
+
+Session types is a type system that specifies and verifies message-passing concurrency between two parties. 
+While session type systems completely eliminate problems like deadlocks and data races~\cite{caires_SessionTypesIntuitionistic_2010,wadler_PropositionsSessions_2012}, they also impose restrictions on the types of programs that programmers can write.
+For instance, in leader election protocols, each server communicates the ID of the elected leader to its neighbor and select a protocol to execute depends on whether its ID coincide with the leader's. 
+Traditional session types only allow protocol selection to depend on boolean values, which means that communicating the ID of the elected leader would require a stream of binary-valued packets to be reflected in the type annotations. 
+This approach is not only computationally inefficient but also requires burdensome type for the programmer to annotate. 
+More expressive versions of session types, such as dependent session types~\cite{toninho_DependentSessionTypes_2011,toninho_DecadeDependentSession_2021} can resolve this problem, but their type equality and type checking are often undecidable.
+
+Our work aims to find a reasonable middle ground by leveraging automaton theory and Kleene algebra. 
+We envision a type system that supports branching on communicated values, such as the leader's ID and the server's assigned ID, while also provide a robust, efficient, and semantics-based type equality checking algorithm. 
+This algebraic approach would significantly improve the expressivity of traditional session type systems while preserving the efficiency of its type checking algorithm.
+
+\mysubsection{Deadlock and Data-Race Detection}
+
+In addition to type-based approaches to eliminating deadlocks and data races, I am also interested in detecting these problems in existing code bases without manual type annotations, particularly in programs with threads accessing shared memory.
+Despite the strong semantic foundation provided by Concurrent Kleene Algebra (CKA), current extensions of CKA lack two important features that are crucial for detecting deadlocks and data races in real-world programs. 
+Firstly, they do not support the \texttt{future} construct, a popular concurrent structure used in many real-world languages. 
+Secondly, they lack data dependency and memory models, which are essential in defining deadlocks and data races.
+
+Augmenting these features to Concurrent Kleene Algebra will provide an algebraic understanding of real-world concurrent programs. 
+This work will lead to the development of a proof system that can prove deadlock and data race freedom for a generic class of programs, as well as an automated checker for detecting deadlocks and data races. 
+Furthermore, it may also enable a fast graph generation algorithm for imperative programs like in graph types~\cite{muller_LanguageAgnosticStaticDeadlock_2024a}, and a deeper understanding of the connection between graph types and semantics.
+
+\mysubsection{Compositional Reduction Framework}
+
+However, all of these applications require significant extensions to existing systems of Kleene Algebra, and demonstrating that these extensions preserve the desirable properties of Kleene Algebra is a non-trivial task.
+This challenge has inspired my theoretical research to develop a compositional technique for proving important properties of extensions of Kleene Algebra. 
+
+Specifically, I envision a framework where we can prove theorems for each individual language feature, such as non-local control-flow, indicator variables, and top, and then combine them to derive a decision procedure and desirable meta-theorems without requiring additional proof. 
+This result will not only be mathematically interesting but also save researchers a significant amount of time and effort when developing practical tools.
+In the future, we can even build formal libraries that allow users to select language features, and automatically generate the decision procedure with surrounding theorems.
+All of these visions are grounded in the algebraic notion of reduction that we discovered for TopKAT. 
+We have recently found that this way of thinking is applicable to many existing systems, and its algebraic nature can potentially facilitate a compositional framework for combining language features.
+
+In conclusion, my research highlights the broad applicability of algebraic reasoning in realistic problems of computer science. 
+I see tremendous potential in the interplay between practicality and theory, where I apply foundational techniques to realistic problems and, in turn, identify new theoretical opportunities from the experience of solving practical issues.
+I believe that this workflow can lead to not only interesting mathematics and efficient tools but also long-running projects that can engage students and researchers from diverse backgrounds.
+
 
 
 \newpage
