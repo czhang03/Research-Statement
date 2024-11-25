@@ -104,7 +104,7 @@ Additionally, my theoretical ventures have demonstrated the limitations of align
 \mysubsection{TopKAT: A Unified View Of Program Logic}
 
 Incorrectness logic~\cite{ohearn_IncorrectnessLogic_2020}, although simple, has shown great potential for bug detection across various semantic domains~\cite{raad_LocalReasoningPresence_2020,le_FindingRealBugs_2022, zhang_QuantitativeStrongestPost_2022b}.
-To unify the theory of incorrectness logic in these semantic domains, we tried to use Kleene algebra with tests (KAT) as an algebraic semantic foundation. 
+To unify the theory of incorrectness logic in these domains, we tried to use Kleene Algebra with Tests (KAT) as an algebraic semantic foundation. 
 This task was soon proven to be impossible~\cite{zhang_IncorrectnessLogicKleene_2022}: we showed that the theory of KAT is insufficient to encode incorrectness logic, mainly because KAT lacks the relational domain operation.
 Surprisingly, instead of adding a fully-fledged domain operator, we only need to add a top element.
 We named our framework Kleen algebra with top and tests (TopKAT), and unlike KAT extensions with domain operators~\cite{desharnais_KleeneAlgebraDomain_2006,sedlar_ComplexityKleeneAlgebra_2023}, TopKAT preserves the complexity class of KAT~\cite{zhang_IncorrectnessLogicKleene_2022}.
@@ -124,8 +124,8 @@ This result has not only demonstrated the effectiveness of reasoning about incor
 \mysubsection{CF-GKAT, control flow verification in nearly linear time}
 
 Control-flow manipulation is a prevalent task in software engineering, thus verifying its correctness is crucial to ensure software reliability.
-Our work, building upon foundational researches on guarded Kleene algebra with tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020} and the theory of non-local control flow in Kleene algebra~\cite{kozen_NonlocalFlowControl_2008a}, greatly simplifies process of control-flow verification.
-Specifically, We extended GKAT automaton to handel common control structures, including break, return, goto, and indicator variables; while preserving its efficiency and correctness.
+Our work, building upon foundational researches on Guarded Kleene Algebra with Tests (GKAT)~\cite{smolka_GuardedKleeneAlgebra_2020} and the theory of non-local control flow in Kleene Algebra~\cite{kozen_NonlocalFlowControl_2008a}, greatly simplifies process of control-flow verification.
+Specifically, We extended GKAT automaton to handle common control structures, including break, return, goto, and indicator variables; while preserving its efficiency and correctness.
 These extensions enable us to validate a large class of control-flow restructuring algorithms~\cite{yakdan_NoMoreGotos_2015,basque_AhoySAILRThere_,erosa_TamingControlFlow_1994,kozen_CertificationCompilerOptimizations_2000d}.
 And its efficiency and correctness allow our works to be invoked automatically on-the-fly, or be used as a framework in a proof assistant.
 
@@ -149,17 +149,17 @@ This work also characterized the exact complexity of GKAT, which is co-NP-comple
 
 \mysubsection{Kleene Algebra With Commutativity Hypothesis}
 
-Commutativity hypothesis has long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, and recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
-Contrary to its broad applications, the theory of KA with commutativity hypothesis remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
+Commutativity hypotheses have long been recognized for its importance in control-flow analysis~\cite{kozen_KleeneAlgebraTests_1996}, and recent work~\cite{antonopoulos_AlgebraAlignmentRelational_2023} has also established its vital role in relational verification. 
+Contrary to its broad applications, the theory of KA with commutativity hypotheses remains stale; specifically, the decidability of the theory has made no progress since the question was raised by Kozen~\cite{kozen_KleeneAlgebraTests_1996}.
 Independently, Kuznetsov~\cite{kuznetsov_ComplexityReasoningKleene_2023} has shown that Kleene Algebra with commutativity is indeed undecidable. We, on the other hand, has shown the same result without using the induction or right unfolding rule~\cite{azevedodeamorim_KleeneAlgebraCommutativity_2024}. 
-Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypothesis, generalizing the result of Kuznetsov.
+Our result exhibits a large class of equational theories that are all undecidable when extended commutativity hypotheses, generalizing the result of Kuznetsov.
 
 % \textbf{Future works:}
-% This work settles a long-standing open problem in Kleene algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. 
+% This work settles a long-standing open problem in Kleene Algebra, and also demonstrates the limitation of relational reasoning with algebra of alignment~\cite{antonopoulos_AlgebraAlignmentRelational_2023}. 
 % Next, I seek to design a decidable algebraic theory for a restricted version of the alignment problem, and investigate its practical use cases.
 
 \newpage
-\section{Vision for Future Works}
+\section{Vision for Future Work}
 
 My work has underscored the vast potential of algebraic methods in program verification, an approach that has gained significant attention recently as researchers seek to leverage the wealth of mathematical theory in real-world applications.
 For my future work, I am committed to continue bringing foundational research in the real-world, and discovering new interesting theoretical directions thorough practice.
@@ -181,7 +181,7 @@ Traditional session types only allow protocol selection to depend on boolean val
 This approach is not only computationally inefficient but also requires burdensome type for the programmer to annotate. 
 More expressive versions of session types, such as dependent session types~\cite{toninho_DependentSessionTypes_2011,toninho_DecadeDependentSession_2021} can resolve this problem, but their type equality and type checking are often undecidable.
 
-Our work aims to find a reasonable middle ground by leveraging automaton theory and Kleene algebra. 
+Our work aims to find a reasonable middle ground by leveraging automaton theory and Kleene Algebra. 
 We envision a type system that supports branching on communicated values, such as the leader's ID and the server's assigned ID, while also provide a robust, efficient, and semantics-based type equality checking algorithm. 
 This algebraic approach would significantly improve the expressivity of traditional session type systems while preserving the efficiency of its type checking algorithm.
 
